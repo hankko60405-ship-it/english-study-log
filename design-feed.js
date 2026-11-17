@@ -63,7 +63,7 @@ window.DESIGN_FEED = {
    "title": "Paper, Poppies and the Artists Who Brought Them to Life",
    "link": "https://peopleofprint.com/editorial/features/paper-poppies-and-the-artists-who-brought-them-to-life/",
    "date": "2026-11-11",
-   "image": "https://i0.wp.com/peopleofprint.com/wp-content/uploads/2026/11/5-768x1024-1.jpg?resize=768%2C1024&#038;quality=89&#038;ssl=1"
+   "image": "https://i0.wp.com/peopleofprint.com/wp-content/uploads/2026/11/2.jpg?resize=1024%2C702&#038;quality=89&#038;ssl=1"
   },
   {
    "source": "Slanted",
@@ -96,10 +96,10 @@ window.DESIGN_FEED = {
    "source": "Creative Review",
    "topic": "廣告與視覺文化",
    "region": "west",
-   "title": "New book charts Tadanori Yokoo’s illustrious career",
-   "link": "https://www.creativereview.co.uk/tadanori-yokoo-retrospective-monograph-japanese-art/",
-   "date": "2026-11-16",
-   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/Tadanori-Yokoo-Moat.jpg"
+   "title": "Pentagram rebrands Greece’s Alpha Bank around legacy symbol",
+   "link": "https://www.creativereview.co.uk/pentagram-alphabank-rebrand-coin-symbol/",
+   "date": "2026-11-17",
+   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/Alpha-Bank-logo.jpg"
   },
   {
    "source": "BP&O",
@@ -222,10 +222,10 @@ window.DESIGN_FEED = {
    "source": "Creative Review",
    "topic": "廣告與視覺文化",
    "region": "west",
-   "title": "The Conversation: The state of freelancing",
-   "link": "https://www.creativereview.co.uk/the-conversation-the-state-of-freelancing/",
-   "date": "2026-11-16",
-   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/bbc_square-eyed-boy-hed_0.jpg"
+   "title": "A look inside a great CMO-agency relationship",
+   "link": "https://www.creativereview.co.uk/cmo-agency-relationship-telstra-bear-meets-eagle-on-fire/",
+   "date": "2026-11-17",
+   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/WWG9.jpg"
   },
   {
    "source": "BP&O",
@@ -348,10 +348,10 @@ window.DESIGN_FEED = {
    "source": "Creative Review",
    "topic": "廣告與視覺文化",
    "region": "west",
-   "title": "Shopify turns ideas into reality in new brand campaign",
-   "link": "https://www.creativereview.co.uk/shopify-brand-campaign-just-an-idea-mother-los-angeles/",
+   "title": "New book charts Tadanori Yokoo’s illustrious career",
+   "link": "https://www.creativereview.co.uk/tadanori-yokoo-retrospective-monograph-japanese-art/",
    "date": "2026-11-16",
-   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/SHOPIFY-JAI-HERO-Image-16x9-1.jpg"
+   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/Tadanori-Yokoo-Moat.jpg"
   },
   {
    "source": "BP&O",
@@ -474,10 +474,10 @@ window.DESIGN_FEED = {
    "source": "Creative Review",
    "topic": "廣告與視覺文化",
    "region": "west",
-   "title": "Apple’s Christmas ad celebrates the creative dreamers",
-   "link": "https://www.creativereview.co.uk/apple-christmas-ad-creative-dreamers/",
-   "date": "2026-11-13",
-   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/Apple-Xmas-ad.png"
+   "title": "The Conversation: The state of freelancing",
+   "link": "https://www.creativereview.co.uk/the-conversation-the-state-of-freelancing/",
+   "date": "2026-11-16",
+   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/bbc_square-eyed-boy-hed_0.jpg"
   },
   {
    "source": "BP&O",
@@ -600,10 +600,10 @@ window.DESIGN_FEED = {
    "source": "Creative Review",
    "topic": "廣告與視覺文化",
    "region": "west",
-   "title": "Adam Sillard on finding pleasure in the creative process",
-   "link": "https://www.creativereview.co.uk/adam-sillard-animation-illustration/",
-   "date": "2026-11-13",
-   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/London_fullfeat.jpg"
+   "title": "Shopify turns ideas into reality in new brand campaign",
+   "link": "https://www.creativereview.co.uk/shopify-brand-campaign-just-an-idea-mother-los-angeles/",
+   "date": "2026-11-16",
+   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/SHOPIFY-JAI-HERO-Image-16x9-1.jpg"
   },
   {
    "source": "BP&O",
