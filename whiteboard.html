@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>介面使用點白板</title>
+<meta name="theme-color" content="#F2E52A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FBF9EC;--ink:#26270F;--muted:#5C5E45;--accent:#F2E52A;--accent-ink:#1C6E36;--ok:#0C5E34;--warn:#6E4000;--line:rgba(38,39,15,.14);--glass:rgba(255,255,255,.62)}
+*{box-sizing:border-box}
+html{scroll-padding-top:84px}
+body{margin:0;color:var(--ink);font-family:'Noto Sans TC','PingFang TC',-apple-system,sans-serif;font-size:15px;line-height:1.7;
+  background:radial-gradient(900px 600px at 90% -10%,rgba(242,229,42,.40),transparent 60%),var(--bg);background-attachment:fixed;padding:0 max(16px,3vw) 64px}
+
+.mono{font-family:inherit}
+header{max-width:1240px;margin:20px auto 0;padding:32px clamp(20px,4vw,40px);background:var(--accent);border-radius:28px}
+header .eb,header .legend,header .legend span{color:#3A3C1C}
+.eb{font-family:inherit;font-size:13px;letter-spacing:.02em;color:var(--muted);}
+h1{font-size:clamp(26px,4vw,40px);letter-spacing:.01em;margin:8px 0 6px;line-height:1.35;text-wrap:balance}
+header p{color:#3A3C1C;margin:0;max-width:60em}
+nav{position:sticky;top:8px;z-index:5;max-width:1240px;margin:16px auto 0;display:flex;flex-wrap:nowrap;overflow-x:auto;gap:4px;padding:6px;border-radius:999px;background:var(--glass);backdrop-filter:saturate(160%) blur(16px);-webkit-backdrop-filter:saturate(160%) blur(16px);border:1px solid rgba(255,255,255,.8)}
+nav a{flex:none;display:inline-flex;align-items:center;min-height:44px;padding:0 14px;border-radius:999px;color:var(--muted);text-decoration:none;font-weight:600;font-size:13px}
+nav a:hover{background:var(--accent);color:var(--ink)}
+:focus-visible{outline:2px solid var(--accent-ink);outline-offset:3px;border-radius:6px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:14px;font-size:12px;color:var(--muted)}
+.chip{font-family:inherit;font-size:13px;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.chip.ok{background:rgba(20,128,74,.14);color:var(--ok)}
+.chip.fix{background:rgba(242,229,42,.40);color:var(--accent-ink)}
+.chip.todo{background:rgba(154,91,0,.14);color:var(--warn)}
+.board{max-width:1240px;margin:40px auto 0;display:grid;grid-template-columns:minmax(260px,380px) 1fr;gap:28px;align-items:start}
+@media (max-width:860px){.board{grid-template-columns:1fr}}
+.board > h2{grid-column:1/-1;margin:0;font-size:22px;letter-spacing:0;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+.board > h2 small{font-family:inherit;font-size:13px;color:var(--muted);font-weight:500}
+.board > p{grid-column:1/-1;margin:-18px 0 0;color:var(--muted)}
+/* 線框 */
+.wire{background:#fff;border:1.5px solid var(--ink);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:8px;box-shadow:6px 6px 0 rgba(38,39,15,.08);position:sticky;top:76px}
+@media (max-width:860px){.wire{position:static}}
+.blk{position:relative;border:1.5px dashed rgba(38,39,15,.45);border-radius:8px;padding:8px 10px 8px 34px;min-height:40px;font-size:12px;font-weight:600;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.blk.fill{background:var(--ink);color:#fff;border-style:solid}
+.blk.acc{background:var(--accent);border:1.5px solid var(--accent);color:#111}
+.blk span{font-weight:500;color:var(--muted);font-size:13px}
+.blk.fill span{color:rgba(255,255,255,.85)}.blk.acc span{color:#111}
+.rowb{display:grid;gap:8px}
+.pin{position:absolute;left:-10px;top:50%;transform:translateY(-50%);width:26px;height:26px;border-radius:50%;background:var(--accent);color:#111;font-family:inherit;font-size:12px;font-weight:700;display:grid;place-items:center;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.2)}
+/* 便利貼 */
+.notes{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:12px}
+.note{background:var(--glass);backdrop-filter:saturate(160%) blur(14px);-webkit-backdrop-filter:saturate(160%) blur(14px);border:1px solid rgba(255,255,255,.85);border-radius:12px;padding:12px 14px;box-shadow:0 10px 24px -16px rgba(38,39,15,.35)}
+.note h3{margin:0 0 6px;font-size:14px;display:flex;gap:8px;align-items:center}
+.note h3 i{font-style:normal;flex:none;width:22px;height:22px;border-radius:50%;background:var(--accent);font-family:inherit;font-size:13px;font-weight:700;display:grid;place-items:center}
+.note dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:3px 8px;font-size:12.5px}
+.note dt{color:var(--muted);font-family:inherit;font-size:13px;padding-top:2px;white-space:nowrap}
+.note dd{margin:0;min-width:0}
+.sum{max-width:1240px;margin:48px auto 0;border-top:1px solid var(--line);padding-top:20px}
+.sum h2{font-size:18px;margin:0 0 10px}
+.sum ul{margin:0;padding-left:1.2em;columns:2 320px;column-gap:32px}
+.sum li{break-inside:avoid;margin-bottom:6px}
+</style>
+</head>
+<body>
+<header>
+  <div class="eb">UX Whiteboard · Web Interface Guidelines 檢查</div>
+  <h1>介面使用點白板</h1>
+  <p>逐一列出 8 個畫面的使用點：使用者在這裡做什麼、目的、鍵盤與觸控操作方式，以及依 Vercel Web Interface Guidelines 檢查後的狀態。左側為畫面線框，數字對應右側便利貼。</p>
+  <div class="legend"><span><span class="chip ok">通過</span> 檢查無問題</span><span><span class="chip fix">已修正</span> 這次檢查後已改</span><span><span class="chip todo">待改善</span> 尚未處理</span></div>
+</header>
+<nav id="toc" aria-label="畫面目錄"></nav>
+<main id="boards"></main>
+<section class="sum" id="summary"></section>
+<script>
+const SCREENS = [
+ { id:'global', name:'全站共用', path:'所有頁面', intro:'頁首導覽、頁尾備份與提示訊息，每一頁都會出現。',
+   wire:[['fill','品牌名稱','回首頁',1],['','主導覽 5 項＋外觀切換','自動／淺色／深色',2],['','頁面內容','',0],['','匯出備份・匯入備份','',3],['','提示訊息 Toast','',4]],
+   notes:[
+    [1,'品牌名稱','點擊回到「今日」','連結；Tab 可聚焦','ok','使用 <a>，可 Cmd＋點擊開新分頁'],
+    [2,'主導覽','切換五個主頁面','連結；最小高度 44px','fix','加上 aria-current 與導覽標籤；新增「跳到主要內容」連結；新增深色模式（跟隨系統，可手動切換）'],
+    [3,'備份','匯出 JSON、匯入還原','按鈕；匯入前有確認','fix','「匯入備份」原本鍵盤無法操作，改為真正的按鈕'],
+    [4,'提示訊息','回報儲存、加入、錯誤','自動消失 2.2 秒','fix','加上 aria-live，螢幕閱讀器會讀出'],
+   ]},
+ { id:'today', name:'今日', path:'#/today', intro:'每天打開的第一頁，目的是 3 秒內知道今天要做什麼。',
+   wire:[['','標題：單字 N 個，閱讀 1 篇','',1],['rowb4','待複習｜今日新字｜連續天數｜已學單字','',2],['fill','開始複習單字','主要動作',3],['','閱讀測驗：下一篇','',4],['','AI 助理','',5],['','路線圖 6 階段','目前階段標示',6]],
+   notes:[
+    [1,'今日任務標題','一眼看到今日份量','純文字','ok','標題使用 text-wrap: balance'],
+    [2,'四個數據卡','確認待複習、新字、連續天數、已學','四張卡皆為連結','fix','數據卡改為可點擊：待複習、今日新字連到複習，連續天數連到錯題本，已學單字連到單字本'],
+    [3,'開始複習單字','進入單字卡','主要按鈕；全頁唯一實心黑鈕','ok','標籤具體，非「繼續」'],
+    [4,'下一篇閱讀','直接開啟尚未做過的文章','連結','ok','自動挑未作答的文章'],
+    [5,'AI 助理入口','跳到 AI 助理','次要連結','ok',''],
+    [6,'路線圖','確認目前階段與下一個指標','純顯示','ok','階段由最新模考成績判定'],
+   ]},
+ { id:'study', name:'單字卡複習', path:'#/study', intro:'一次一張卡，先自評再看答案。操作最頻繁的畫面，以鍵盤和單手操作為優先。',
+   wire:[['','進度條＋第 N／總數','',1],['','單字（大字）','自動發音',2],['','發音按鈕','',3],['rowb3','認識｜模糊｜不認識','鍵盤 1／2／3',4],['','中文＋例句','選擇後顯示',5],['fill','下一個','Enter',6],['','其實記錯了','',7]],
+   notes:[
+    [1,'進度','知道本輪剩多少','純顯示','ok','寬度變化使用 transition，尊重減少動態設定'],
+    [2,'單字','回想意思','自動朗讀一次，可關閉','fix','新增「自動發音：開／關」切換，設定會記住'],
+    [3,'發音','重聽','按鈕','ok',''],
+    [4,'自評三選一','誠實標記記憶程度','按鈕 44px；鍵盤 1 2 3','ok','顏色之外另有文字標籤，不只靠顏色'],
+    [5,'答案區','核對中文與例句','例句可發音','ok',''],
+    [6,'下一個','套用排程並換卡','Enter 或空白鍵；自動聚焦','ok','不認識的字本輪最後再出現一次'],
+    [7,'其實記錯了','把「認識」改判為不認識','按鈕','ok','避免高估，提供反悔路徑'],
+   ]},
+ { id:'words', name:'單字本', path:'#/words', intro:'管理全部單字：新增、搜尋、分類、刪除。',
+   wire:[['rowb4','各分類字數｜已學會','',1],['fill','開始背（N）','',2],['','每日新字數','數字輸入',3],['','新增單字表單','英／中／詞性／例句／分類',4],['','分類篩選＋搜尋','',5],['','單字清單','發音・刪除',6]],
+   notes:[
+    [1,'分類統計','看各來源字數','純顯示','ok',''],
+    [2,'開始背','進入單字卡','連結','ok',''],
+    [3,'每日新字','調整每天新字上限 0–50','數字欄位','fix','補上 name、inputmode、autocomplete'],
+    [4,'新增單字','手動加入生字','表單；必填英文、中文','fix','補上範例 placeholder（以 … 結尾）、關閉英文欄拼字檢查'],
+    [5,'篩選與搜尋','縮小清單','按鈕＋搜尋欄','fix','搜尋欄補上無障礙標籤；篩選與搜尋寫進網址，重新整理或分享連結都會保留'],
+    [6,'單字清單','檢視、發音、刪除','刪除前有確認','fix','清單超過 50 筆，加上 content-visibility 提升捲動效能'],
+   ]},
+ { id:'readlist', name:'閱讀測驗清單', path:'#/read', intro:'選擇要做的文章，或只重做錯題。',
+   wire:[['','說明文字','',0],['','文章列：考試標籤＋標題＋題數＋建議時間','',1],['','上次成績・做過次數','',2],['fill','開始／再做一次','',3],['','只做錯題','有錯題才出現',4]],
+   notes:[
+    [1,'文章列','判斷難度與所需時間','純顯示','ok','題數與建議時間直接列出'],
+    [2,'歷史成績','決定要不要重做','純顯示','ok','未作答時顯示「未作答」，非空白'],
+    [3,'開始','進入計時作答','連結，可直接分享網址','ok','每篇文章有獨立網址'],
+    [4,'只做錯題','針對上次錯的題目重做','連結','ok','時限會依題數等比例縮短'],
+   ]},
+ { id:'exam', name:'機考作答', path:'#/read/:id', intro:'左文右題的計時作答畫面。重點是配速：隨時知道是否落後，並能快速跳過卡住的題目。',
+   wire:[['','標題＋配速條＋落後提示','',1],['acc','倒數計時','剩 60 秒變紅',2],['fill','交卷','',3],['rowb2','文章（可點單字）｜題目與選項','',4],['','先跳過','每題右上',5],['','點字查詢列','底部浮出',6],['','題號導覽','底部',7]],
+   notes:[
+    [1,'配速條','知道已答幾題、依時間應答幾題','橘線＝目前時間位置','fix','原本每秒向螢幕閱讀器播報，已關閉避免干擾'],
+    [2,'倒數計時','掌握剩餘時間','等寬數字，不會跳動','ok','超時後顯示 + 並繼續計時'],
+    [3,'交卷','結束作答','有未答題會先確認','fix','作答中關閉分頁會跳出離開警告'],
+    [4,'選項','選擇答案，可改答','按鈕 44px；選中為黑底','fix','加上 aria-pressed 表示選取狀態'],
+    [5,'先跳過','標記並跳到下一題未答題','按鈕','fix','觸控高度由 36 加大到 44px；捲動動畫尊重減少動態設定'],
+    [6,'點字查詢','加入單字本、發音、查劍橋','底部浮動列','fix','手機上不再自動彈出鍵盤；輸入欄補上標籤'],
+    [7,'題號導覽','跳到指定題；看哪些已答、已標記','按鈕 44px','ok','已答＝黑底，跳過＝橘色底線'],
+   ],
+   extra:'<span class="chip fix">已修正</span> 手機版新增「文章／題目」切換鈕，不必來回捲動；點題號會自動切到題目。'},
+ { id:'result', name:'交卷解析', path:'#/read/:id（交卷後）', intro:'同一畫面顯示結果。目標是每一題都知道錯在哪、花了多久。',
+   wire:[['acc','得分＋總用時＋是否超時','',1],['','文章：出處句綠色標示','',2],['','每題：正解／你的答案／用時','',3],['','解析文字','',4],['','錯誤原因（複選）','',5],['','檢討筆記','',6],['fill','儲存到錯題本','',7]],
+   notes:[
+    [1,'成績列','確認分數與是否超時','純顯示','ok',''],
+    [2,'出處句','看答案在文章哪一句','綠底＋底線','ok','不只靠顏色，另有底線'],
+    [3,'逐題結果','核對對錯與用時','正解有 ✓、錯誤有 ✕ 文字','ok','用時超過建議 1.5 倍標示「超時」'],
+    [4,'解析','理解同義改寫與陷阱','純文字','ok',''],
+    [5,'錯誤原因','分類自己的錯誤','7 個可複選標籤','fix','觸控高度加大到 44px；超時錯題會預先勾選「時間不夠」'],
+    [6,'檢討筆記','寫下次要注意的事','文字欄','fix','每個筆記欄補上對應題號的標籤'],
+    [7,'儲存','寫入錯題本並前往統計','主要按鈕','ok','成績在交卷當下已儲存，這一步只補原因與筆記'],
+   ]},
+ { id:'review', name:'錯題本', path:'#/review', intro:'彙整所有作答紀錄：錯在哪一類、時間花在哪、成績走勢。',
+   wire:[['rowb4','作答次數｜正確率｜每題平均｜錯題','',1],['','時間分配長條圖','',2],['','時間調整方式 6 條','',3],['','錯誤原因・題型正確率','',4],['','錯題清單＋重做','',5],['','模考成績表單與紀錄','',6]],
+   notes:[
+    [1,'總覽數據','掌握整體狀況','純顯示','ok','無資料時顯示 0，不會壞版'],
+    [2,'時間分配','找出最花時間的題型','長條圖，中線＝建議時間','ok','無資料時顯示說明文字'],
+    [3,'調整方式','參考作答策略','純文字','ok',''],
+    [4,'錯誤統計','找出最常見的錯誤原因','長條圖＋數字','ok','數字使用等寬字，方便比較'],
+    [5,'錯題清單','回顧並重做','連結「重做」','ok','最多顯示 40 筆'],
+    [6,'成績紀錄','記錄模考分數，推動路線圖階段','表單；刪除前確認','fix','補上 inputmode 與 autocomplete；日期改用 Intl 依地區格式顯示'],
+   ]},
+ { id:'ai', name:'AI 助理', path:'#/ai', intro:'把學習紀錄交給 AI：選任務、補充問題，直接問或複製提示詞。',
+   wire:[['','任務按鈕 6 個','',1],['','問題／寫作輸入欄','',2],['fill','直接問 AI','需金鑰',3],['','複製提示詞','免金鑰',4],['','對話紀錄','',5],['','API 金鑰','',6],['','它會看到的紀錄','',7]],
+   notes:[
+    [1,'任務','選擇常用需求','單選按鈕','fix','加上 aria-pressed 表示選取狀態'],
+    [2,'輸入欄','補充問題或貼上寫作','多行文字','fix','補上 name 與範例 placeholder'],
+    [3,'直接問 AI','在網站內取得回答','按鈕；請求中顯示「思考中…」並停用','ok','錯誤訊息會說明下一步（檢查金鑰、稍後再試）'],
+    [4,'複製提示詞','貼到 Claude 使用','按鈕；失敗時改顯示全文供手動複製','ok',''],
+    [5,'對話紀錄','回看問答','可清除','fix','回答產生中「直接問 AI」會變成「停止」，已產生的內容會保留'],
+    [6,'API 金鑰','儲存個人金鑰','密碼欄；只存本機','fix','補上無障礙標籤、關閉拼字檢查'],
+    [7,'紀錄預覽','確認會送出哪些資料','可捲動區塊','ok','送出前可先檢視內容'],
+   ]},
+];
+const labels = { ok:'通過', fix:'已修正', todo:'待改善' };
+const esc = s => String(s).replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+document.getElementById('toc').innerHTML = SCREENS.map(s => `<a href="#${s.id}">${s.name}</a>`).join('');
+document.getElementById('boards').innerHTML = SCREENS.map(s => `
+  <section class="board" id="${s.id}">
+    <h2>${s.name} <small>${esc(s.path)}</small></h2>
+    <p>${s.intro}${s.extra ? '　' + s.extra : ''}</p>
+    <div class="wire" role="img" aria-label="${s.name} 線框圖">${s.wire.map(([cls, t, sub, pin]) =>
+      `<div class="blk ${cls.startsWith('rowb') ? '' : cls}">${pin ? `<b class="pin">${pin}</b>` : ''}${esc(t)}${sub ? ` <span>${esc(sub)}</span>` : ''}</div>`).join('')}</div>
+    <div class="notes">${s.notes.map(([n, title, goal, how, st, check]) => `
+      <article class="note"><h3><i>${n}</i>${title}</h3>
+        <dl><dt>目的</dt><dd>${goal}</dd><dt>操作</dt><dd>${esc(how)}</dd>
+        <dt>檢查</dt><dd><span class="chip ${st}">${labels[st]}</span> ${check}</dd></dl></article>`).join('')}</div>
+  </section>`).join('');
+const all = SCREENS.flatMap(s => s.notes), count = k => all.filter(n => n[4] === k).length;
+document.getElementById('summary').innerHTML = `<h2>總結：${all.length} 個使用點 · 通過 ${count('ok')} · 已修正 ${count('fix')} · 待改善 ${count('todo')}</h2>
+<ul>
+<li><b>未涵蓋</b>：確認視窗仍使用瀏覽器原生對話框</li>
+<li><b>未實測</b>：AI 助理的「停止」需要 API 金鑰才能實際驗證</li>
+<li><b>字體</b>：全站改用思源黑體（Noto Sans TC），內文 17px、行高 1.75，最小字級 13px</li>
+</ul>`;
+</script>
+</body>
+</html>

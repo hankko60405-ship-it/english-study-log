@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>網站架構圖</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FBF9EC;--ink:#26270F;--muted:#5C5E45;--accent:#F2E52A;--glass:rgba(255,255,255,.6);--edge:rgba(255,255,255,.8)}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;color:var(--ink);font-family:'Noto Sans TC','PingFang TC',-apple-system,sans-serif;
+  background:radial-gradient(900px 600px at 85% -10%,rgba(242,229,42,.40),transparent 60%),radial-gradient(700px 600px at 0% 100%,rgba(47,168,79,.14),transparent 60%),var(--bg);background-attachment:fixed;
+  padding:40px max(16px,4vw) 64px}
+
+header{max-width:1100px;margin:0 auto 36px;padding:32px clamp(20px,4vw,40px);background:var(--accent);border-radius:28px}
+header p,header .eb,header .legend{color:#3A3C1C}
+.eb{font-family:inherit;font-size:13px;letter-spacing:.02em;color:var(--muted);}
+h1{font-size:clamp(28px,4vw,44px);letter-spacing:.01em;margin:8px 0 6px}
+p{color:var(--muted);margin:0;font-size:14px}
+.tree{max-width:1100px;margin:0 auto;display:flex;flex-direction:column;gap:44px}
+.lvl{display:flex;flex-direction:column;align-items:center;gap:16px;position:relative}
+.page{min-width:240px;text-align:center;padding:12px 28px;border-radius:999px;background:var(--ink);color:#fff;font-weight:600;font-size:14px;letter-spacing:.02em;position:relative}
+.page small{display:block;font-family:inherit;font-size:13px;opacity:.85;font-weight:500;letter-spacing:.08em}
+.page.home{background:var(--accent);color:#26270F}
+.kids{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;position:relative;padding-top:16px}
+.kids::before{content:'';position:absolute;top:0;left:50%;width:1px;height:16px;background:rgba(38,39,15,.3)}
+.lvl > .page::after{content:'';position:absolute;left:50%;bottom:-17px;width:1px;height:17px;background:rgba(38,39,15,.3)}
+.node{padding:10px 18px;border-radius:999px;background:var(--glass);backdrop-filter:saturate(160%) blur(16px);-webkit-backdrop-filter:saturate(160%) blur(16px);border:1px solid var(--edge);box-shadow:0 8px 24px -14px rgba(38,39,15,.3);font-size:13px;font-weight:600;text-align:center;line-height:1.35}
+.node span{display:block;font-weight:500;font-size:13px;color:var(--muted)}
+.node.new{box-shadow:0 0 0 2px rgba(47,168,79,.55),0 8px 24px -14px rgba(38,39,15,.3)}
+.data{max-width:1100px;margin:48px auto 0;border-top:1px solid rgba(38,39,15,.15);padding-top:24px}
+.data .kids{padding-top:0}.data .kids::before{display:none}
+.legend{display:flex;gap:16px;flex-wrap:wrap;margin-top:14px;font-size:12px;color:var(--muted)}
+.legend i{display:inline-block;width:14px;height:14px;border-radius:50%;vertical-align:-2px;margin-right:6px}
+</style>
+</head>
+<body>
+<header>
+  <div class="eb">Site Architecture · 參考用</div>
+  <h1>英文學習紀錄：網站架構</h1>
+  <p>五個主頁面，每頁列出主要區塊。資料全部存在本機，AI 助理讀取同一份紀錄。</p>
+  <div class="legend"><span><i style="background:#26270F"></i>頁面</span><span><i style="background:rgba(255,255,255,.8);border:1px solid #ccc"></i>區塊</span><span><i style="box-shadow:0 0 0 2px rgba(47,168,79,.6);background:#fff"></i>依 App 參考新增的功能</span></div>
+</header>
+<main class="tree">
+  <section class="lvl"><div class="page home">今日 HOME<small>#/today</small></div>
+    <div class="kids">
+      <div class="node">今日概況<span>待複習／新字數</span></div>
+      <div class="node">數據指標<span>連續天數・已學單字</span></div>
+      <div class="node">快速入口<span>單字・閱讀・AI</span></div>
+      <div class="node">路線圖<span>440 → 6.5 → 990／9.0</span></div>
+    </div></section>
+
+  <section class="lvl"><div class="page">單字 VOCABULARY<small>#/words · #/study</small></div>
+    <div class="kids">
+      <div class="node new">單字卡複習<span>認識／模糊／不認識（扇貝）</span></div>
+      <div class="node">間隔重複排程<span>依記憶程度安排下次</span></div>
+      <div class="node">發音<span>單字・例句朗讀</span></div>
+      <div class="node">新增單字<span>英／中／詞性／例句</span></div>
+      <div class="node">分類與搜尋<span>我的錯題・多益・雅思・閱讀生字</span></div>
+    </div></section>
+
+  <section class="lvl"><div class="page">閱讀測驗 MOCK TEST<small>#/read · #/read/:id</small></div>
+    <div class="kids">
+      <div class="node">題庫清單<span>多益 Part 7・雅思 Academic</span></div>
+      <div class="node new">機考畫面<span>左文右題（雅思哥）</span></div>
+      <div class="node new">配速提示<span>進度條・落後題數</span></div>
+      <div class="node new">先跳過／題號導覽<span>單題停損</span></div>
+      <div class="node">點字查詢<span>加入單字本・劍橋字典</span></div>
+      <div class="node">交卷解析<span>正解・出處句・每題用時</span></div>
+    </div></section>
+
+  <section class="lvl"><div class="page">錯題本 REVIEW<small>#/review</small></div>
+    <div class="kids">
+      <div class="node">錯題統計<span>正確率・錯題數</span></div>
+      <div class="node new">時間分配<span>題型用時・超時題</span></div>
+      <div class="node">錯誤原因<span>7 類原因統計</span></div>
+      <div class="node new">錯題重做<span>只做錯的題（刷刷庫）</span></div>
+      <div class="node">模考成績紀錄<span>多益・雅思閱讀換算</span></div>
+    </div></section>
+
+  <section class="lvl"><div class="page">AI 助理 AI TUTOR<small>#/ai</small></div>
+    <div class="kids">
+      <div class="node">學習紀錄摘要<span>自動附在每次提問</span></div>
+      <div class="node">任務：弱點分析＋週計畫</div>
+      <div class="node">任務：作答時間分析</div>
+      <div class="node">任務：依錯題出新題</div>
+      <div class="node">任務：寫作批改</div>
+      <div class="node">複製提示詞／API 直接對話</div>
+    </div></section>
+</main>
+<section class="data lvl">
+  <div class="eb" style="text-align:center">共用資料（瀏覽器本機）</div>
+  <div class="kids">
+    <div class="node">words<span>單字與複習排程</span></div>
+    <div class="node">attempts<span>作答、用時、錯誤原因、筆記</span></div>
+    <div class="node">scores<span>模考成績</span></div>
+    <div class="node">days<span>每日紀錄</span></div>
+    <div class="node">備份<span>匯出／匯入 JSON</span></div>
+  </div>
+</section>
+</body>
+</html>

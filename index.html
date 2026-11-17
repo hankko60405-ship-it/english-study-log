@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>英文學習紀錄</title>
+<meta name="theme-color" content="#0B0B0C">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader" role="status" aria-live="polite" aria-label="載入中">
+  <div class="ld-term">
+    <p class="ld-kicker">今日設計詞彙</p>
+    <p class="ld-word" id="ldWord" lang="en"></p>
+    <p class="ld-pos" id="ldPos"></p>
+    <p class="ld-en" id="ldEn" lang="en"></p>
+    <p class="ld-zh" id="ldZh"></p>
+  </div>
+  <div class="corner"><span class="num" id="loaderNum" aria-hidden="true">0</span><span class="cap"><i id="loaderBar"></i>英文學習紀錄・載入中</span></div>
+  <button type="button" class="ld-skip" id="ldSkip">跳過</button>
+</div>
+<script>
+(function(){
+  var TERMS=[
+   ['kerning','n.','字距微調','Kerning is the adjustment of space between two specific letters, such as A and V, so that the word looks evenly spaced.','針對兩個特定字母（例如 A 和 V）調整間距，讓整個字看起來疏密一致。'],
+   ['leading','n.','行距','Leading is the vertical distance from one line of text to the next. More leading makes long paragraphs easier to read.','一行文字到下一行的垂直距離。行距加大，長段落比較好讀。'],
+   ['hierarchy','n.','視覺層級','Hierarchy tells the reader what to look at first, second and third, using size, weight, colour and position.','用大小、粗細、顏色和位置，告訴讀者先看哪裡、再看哪裡。'],
+   ['grid','n.','網格','A grid is a set of invisible lines that divides the page, so that every element has a logical place.','把版面切開的一組看不見的線，讓每個元素都有合理的位置。'],
+   ['negative space','n.','留白；負空間','Negative space is the empty area around and between elements. It gives the eye room to rest.','元素周圍與之間的空白，讓視線有地方休息。'],
+   ['contrast','n.','對比','Contrast is the difference between two elements placed together: large and small, dark and light, thick and thin.','並置的兩個元素之間的差異：大與小、深與淺、粗與細。'],
+   ['halftone','n.','網點','Halftone reproduces a photograph with dots of different sizes, so one ink can show light and shadow.','用大小不同的點重現照片，單一油墨也能表現明暗。'],
+   ['serif','n.','襯線','A serif is the small stroke at the end of a letter. Typefaces with serifs often feel traditional or literary.','字母筆畫末端的小裝飾線。有襯線的字體常給人傳統或文學的感覺。'],
+   ['baseline','n.','基線','The baseline is the invisible line on which most letters sit. Aligning text to it keeps columns tidy.','大多數字母所坐落的那條看不見的線。文字對齊基線，欄位才會整齊。'],
+   ['alignment','n.','對齊','Alignment places elements along a shared edge or centre line, which makes a layout feel connected.','把元素沿著共同的邊緣或中線排列，讓版面有連結感。'],
+   ['bleed','n.','出血','Bleed is the extra image area beyond the trim line, so no white edge appears after the paper is cut.','超出裁切線的額外圖像範圍，裁紙後才不會露出白邊。'],
+   ['overprint','v. / n.','疊印','To overprint is to print one ink on top of another, so the two colours mix and create a third.','把一種油墨印在另一種上面，兩色混合產生第三種顏色。'],
+   ['typeface','n.','字體','A typeface is a designed set of letters with a shared style. Helvetica is a typeface; Helvetica Bold 12pt is a font.','一套風格一致的字母設計。Helvetica 是字體；Helvetica Bold 12pt 才是字型。'],
+   ['composition','n.','構圖','Composition is the arrangement of all elements on the page and the way they balance each other.','所有元素在版面上的安排，以及它們彼此之間的平衡。'],
+   ['margin','n.','邊界','A margin is the empty band between the content and the edge of the page. Wide margins feel calm and formal.','內容與紙張邊緣之間的空白帶。邊界寬，感覺沉穩正式。'],
+   ['legibility','n.','易辨性','Legibility is how easily one letter can be told apart from another. It depends on shape, size and spacing.','一個字母能多容易和另一個區分開來，取決於字形、大小和間距。']
+  ];
+  var d=new Date(),n=d.getFullYear()*372+d.getMonth()*31+d.getDate(),visits=0;
+  try{visits=(+sessionStorage.getItem('ld')||0);sessionStorage.setItem('ld',visits+1)}catch(e){}
+  var t=TERMS[(n+visits)%TERMS.length];
+  document.getElementById('ldWord').textContent=t[0];
+  document.getElementById('ldPos').textContent=t[1]+'　'+t[2];
+  document.getElementById('ldEn').textContent=t[3];
+  document.getElementById('ldZh').textContent=t[4];
+  var el=document.getElementById('loader'),num=document.getElementById('loaderNum'),bar=document.getElementById('loaderBar');
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches,dur=3600,t0=performance.now(),ready=false,done=false;
+  function finish(){if(done)return;done=true;clearInterval(timer);el.classList.add('out');setTimeout(function(){el.remove()},reduce?250:850)}
+  var timer=setInterval(function(){
+    var k=Math.min(1,(performance.now()-t0)/dur),e=1-Math.pow(1-k,2.2);
+    if(!ready)e=Math.min(e,.9);
+    num.textContent=Math.round(e*100); bar.style.setProperty('--p',e);
+    if(k>=1&&ready){setTimeout(finish,300)}
+  },30);
+  function go(){ready=true}
+  window.addEventListener('load',function(){(document.fonts&&document.fonts.ready?document.fonts.ready:Promise.resolve()).then(go,go)});
+  document.getElementById('ldSkip').addEventListener('click',finish);
+  document.addEventListener('keydown',function k(e){if(e.key==='Escape'||e.key==='Enter'){finish();document.removeEventListener('keydown',k)}});
+  setTimeout(function(){ready=true},4500); setTimeout(finish,8000);
+})();
+</script>
+<a class="skip" href="#app">跳到主要內容</a>
+<div class="ticker" id="ticker" role="region" aria-label="新字與新文法">
+  <div class="tk-view" id="tkView" tabindex="0"><div class="tk-track" id="tkTrack"></div></div>
+  <button type="button" class="tk-btn" id="tkBtn" aria-pressed="false">暫停</button>
+</div>
+<div class="topwrap band">
+  <header class="top">
+    <a class="brand" href="#/today">英文學習紀錄 <small>多益／雅思</small></a>
+    <nav id="nav" aria-label="主要導覽">
+      <a href="#/today" data-r="today">今日</a>
+      <a href="#/words" data-r="words">單字</a>
+      <a href="#/read" data-r="read">閱讀測驗</a>
+      <a href="#/review" data-r="review">錯題本</a>
+      <a href="#/ai" data-r="ai">AI 助理</a>
+      <button class="btn cyan" type="button" id="themeBtn">外觀：自動</button>
+    </nav>
+  </header>
+</div>
+<main id="app" class="band"></main>
+<div class="band">
+  <footer class="foot">
+    <span>資料儲存在本機瀏覽器，建議定期匯出備份。</span>
+    <span class="foot-actions">
+      <button class="btn" type="button" id="exportBtn">匯出備份</button>
+      <button class="btn" type="button" id="importBtn">匯入備份</button><input type="file" id="importFile" accept="application/json" hidden>
+    </span>
+  </footer>
+</div>
+<div class="wordbar" id="wordbar" hidden></div>
+<script src="data.js"></script>
+<script src="data2.js"></script>
+<script src="design-feed.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
