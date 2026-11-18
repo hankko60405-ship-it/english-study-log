@@ -1,6 +1,6 @@
 // 由 update_design.py 產生，請勿手動編輯
 window.DESIGN_FEED = {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "items": [
   {
    "source": "IDEA Magazine",
@@ -63,25 +63,25 @@ window.DESIGN_FEED = {
    "title": "Paper, Poppies and the Artists Who Brought Them to Life",
    "link": "https://peopleofprint.com/editorial/features/paper-poppies-and-the-artists-who-brought-them-to-life/",
    "date": "2026-11-11",
-   "image": "https://i0.wp.com/peopleofprint.com/wp-content/uploads/2026/11/2.jpg?resize=1024%2C702&#038;quality=89&#038;ssl=1"
+   "image": "https://i0.wp.com/peopleofprint.com/wp-content/uploads/2026/11/JC_Poppies_06006.jpg?resize=1024%2C683&#038;quality=89&#038;ssl=1"
   },
   {
    "source": "Slanted",
    "topic": "字體與編排",
    "region": "west",
-   "title": "Just Another Trouble Bubble",
-   "link": "https://www.slanted.de/just-another-trouble-bubble/",
-   "date": "2026-11-16",
+   "title": "GraphicDesign.zip",
+   "link": "https://www.slanted.de/graphicdesign-zip/",
+   "date": "2026-11-17",
    "image": ""
   },
   {
    "source": "Mindsparkle Mag",
    "topic": "品牌與平面",
    "region": "west",
-   "title": "A mirror-silver box makes unwrapping 25 years of ceramics a ritual",
-   "link": "https://mindsparklemag.com/designs/a-mirror-silver-box-makes-unwrapping-25-years-of-ceramics-a-ritual",
-   "date": "2026-11-16",
-   "image": "https://mindsparklemag.com/storage/media/32929/1st25y-luminous-design-silver-ceramics-gift-box-packaging-cover-mindsparkle-mag-1.jpg"
+   "title": "Different's worlds-apart identity sends B2B marketers off the map",
+   "link": "https://mindsparklemag.com/designs/differents-worlds-apart-identity-sends-b2b-marketers-off-the-map",
+   "date": "2026-11-17",
+   "image": "https://mindsparklemag.com/storage/media/33010/different-ai-marketing-platform-brand-identity-hot-air-balloon-monogram-mindsparkle-mag-1.jpg"
   },
   {
    "source": "Typewolf",
@@ -96,37 +96,37 @@ window.DESIGN_FEED = {
    "source": "Creative Review",
    "topic": "廣告與視覺文化",
    "region": "west",
-   "title": "Pentagram rebrands Greece’s Alpha Bank around legacy symbol",
-   "link": "https://www.creativereview.co.uk/pentagram-alphabank-rebrand-coin-symbol/",
+   "title": "Jonathan Glazer directs uncanny short film for Gentle Monster",
+   "link": "https://www.creativereview.co.uk/jonathan-glazer-gentle-monster-film-joaquin-phoenix/",
    "date": "2026-11-17",
-   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/Alpha-Bank-logo.jpg"
+   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/GentleMonster.jpg"
   },
   {
    "source": "BP&O",
    "topic": "品牌識別評論",
    "region": "west",
-   "title": "Shorter and sharper: Denmark’s National Gallery becomes SMK in eTypes’ bold new identity",
-   "link": "https://bpando.org/2026/11/12/smk-statens-museum-for-kunst-etypes-brand-identity-design/",
-   "date": "2026-11-12",
-   "image": "https://bpando.org/wp-content/uploads/Statens-Museum-for-Kunst-SMK-eType-brand-identity-design-bpo-review-wordmark-logo-blue.jpeg"
+   "title": "M/OTG brings a bold, timeless visual identity to heritage kosher brand J&J Dairy",
+   "link": "https://bpando.org/2026/11/17/m-otg-visual-identity-packaging-heritage-kosher-brand-jj-dairy/",
+   "date": "2026-11-17",
+   "image": "https://bpando.org/wp-content/uploads/M-OTG-JandJ-brand-identity-design-bpo-review-logo-wordmark-packaging3.jpeg"
   },
   {
    "source": "Creative Boom",
    "topic": "平面、插畫、品牌",
    "region": "west",
-   "title": "Donna Fredin switched from design to illustration, now she's drawing fun, awkward characters that capture life’s strange moments",
-   "link": "https://www.creativeboom.com/inspiration/donna-fredin-switched-from-design-to-illustration-now-shes-drawing-fun-awkward-characters-that-capture-lifes-strange-moments/",
-   "date": "2026-11-16",
-   "image": "https://media.creativeboom.com/02b72165-fae6-46f3-a3df-e3fbf9baf077/conversions/646e2ed96e44791d3e5a8ee887e8bcc7faadfdb1-medium.webp"
+   "title": "Skull caps, football shirts and the sweetness of male friendship in Nikolai Voelcker's photographs",
+   "link": "https://www.creativeboom.com/inspiration/skull-caps-football-shirts-and-the-sweetness-of-male-friendship-in-nikolai-voelckers-photographs/",
+   "date": "2026-11-17",
+   "image": "https://media.creativeboom.com/6ee62189-1070-49b5-8d3c-83ce7ff29283/conversions/84e1003f197898dbef4b46703848b7673ccc9e98-medium.webp"
   },
   {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "Packaging Design: Olearius Olive Oil by vrai studio",
-   "link": "https://abduzeedo.com/packaging-design-olearius-olive-oil-vrai-studio/",
-   "date": "2026-11-16",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_olearius-olive-oil-packaging-packaging-world.jpg"
+   "title": "XK Studio: Timeline Navigation Web Design by Bureau Cool",
+   "link": "https://abduzeedo.com/xk-studio-timeline-navigation-web-design-bureau-cool/",
+   "date": "2026-11-17",
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_xk-studio-hover-states.jpg"
   },
   {
    "source": "IDEA Magazine",
@@ -195,19 +195,19 @@ window.DESIGN_FEED = {
    "source": "Slanted",
    "topic": "字體與編排",
    "region": "west",
-   "title": "Parametric Fonts",
-   "link": "https://www.slanted.de/parametric-fonts/",
-   "date": "2026-11-13",
+   "title": "Just Another Trouble Bubble",
+   "link": "https://www.slanted.de/just-another-trouble-bubble/",
+   "date": "2026-11-16",
    "image": ""
   },
   {
    "source": "Mindsparkle Mag",
    "topic": "品牌與平面",
    "region": "west",
-   "title": "JIMMY's morphing identity mirrors the AI films it makes",
-   "link": "https://mindsparklemag.com/designs/jimmys-morphing-identity-mirrors-the-ai-films-it-makes",
-   "date": "2026-11-14",
-   "image": "https://mindsparklemag.com/storage/media/32996/jimmy-ai-vfx-studio-website-homepage-brand-identity-mindsparkle-mag-1.jpg"
+   "title": "Maisa's master symbol spawns a unique mark for every AI digital worker",
+   "link": "https://mindsparklemag.com/designs/maisas-master-symbol-spawns-a-unique-mark-for-every-ai-digital-worker",
+   "date": "2026-11-17",
+   "image": "https://mindsparklemag.com/storage/media/33059/maisa-enterprise-ai-digital-workers-brand-identity-motto-cover-mindsparkle-mag-1.jpg"
   },
   {
    "source": "Typewolf",
@@ -222,37 +222,37 @@ window.DESIGN_FEED = {
    "source": "Creative Review",
    "topic": "廣告與視覺文化",
    "region": "west",
-   "title": "A look inside a great CMO-agency relationship",
-   "link": "https://www.creativereview.co.uk/cmo-agency-relationship-telstra-bear-meets-eagle-on-fire/",
+   "title": "Pentagram rebrands Greece’s Alpha Bank around legacy symbol",
+   "link": "https://www.creativereview.co.uk/pentagram-alphabank-rebrand-coin-symbol/",
    "date": "2026-11-17",
-   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/WWG9.jpg"
+   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/Alpha-Bank-letterform.jpg"
   },
   {
    "source": "BP&O",
    "topic": "品牌識別評論",
    "region": "west",
-   "title": "Swedes Love Fish. Just Not All Year.",
-   "link": "https://bpando.org/2026/11/11/swedes-love-fish/",
-   "date": "2026-11-11",
-   "image": "https://bpando.org/wp-content/uploads/korshags-pond-salmon-packs-wide.jpg"
+   "title": "Shorter and sharper: Denmark’s National Gallery becomes SMK in eTypes’ bold new identity",
+   "link": "https://bpando.org/2026/11/12/smk-statens-museum-for-kunst-etypes-brand-identity-design/",
+   "date": "2026-11-12",
+   "image": "https://bpando.org/wp-content/uploads/Statens-Museum-for-Kunst-SMK-eType-brand-identity-design-bpo-review-wordmark-logo-blue.jpeg"
   },
   {
    "source": "Creative Boom",
    "topic": "平面、插畫、品牌",
    "region": "west",
-   "title": "Studio Kiln builds a shape-shifting character for weight loss app Reset",
-   "link": "https://www.creativeboom.com/news/studio-kiln-builds-a-shape-shifting-character-for-weight-loss-app-reset/",
-   "date": "2026-11-16",
-   "image": "https://media.creativeboom.com/2c0fe8e8-2256-4025-83c0-a4fd82054057/conversions/19940eaf152a0a787b0e91140a8d7ef00a479e69-medium.webp"
+   "title": "Google's Yi Xiang on how to build a design career across global borders",
+   "link": "https://www.creativeboom.com/insight/googles-yi-xiang-on-how-to-build-a-design-career-across-global-borders/",
+   "date": "2026-11-17",
+   "image": "https://media.creativeboom.com/50b794a3-1974-4138-a2c8-efb4d94e83fa/conversions/00e5eeb28a336fde79daa1f9eb48edc0dfc3ba9c-medium.webp"
   },
   {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "THE OBJECT 01: 3D-Printed Chair by Nako Baev",
-   "link": "https://abduzeedo.com/object-01-3d-printed-chair-nako-baev/",
-   "date": "2026-11-16",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_sustainable-design-meets-3d-printed-chair-nako-baev.jpg"
+   "title": "Estúdio Caxa Unveils Outra Coisa Brand Identity",
+   "link": "https://abduzeedo.com/estudio-caxa-unveils-outra-coisa-brand-identity/",
+   "date": "2026-11-17",
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_40.jpg"
   },
   {
    "source": "IDEA Magazine",
@@ -321,19 +321,19 @@ window.DESIGN_FEED = {
    "source": "Slanted",
    "topic": "字體與編排",
    "region": "west",
-   "title": "The NoGood Book",
-   "link": "https://www.slanted.de/the-nogood-book/",
-   "date": "2026-11-12",
+   "title": "Parametric Fonts",
+   "link": "https://www.slanted.de/parametric-fonts/",
+   "date": "2026-11-13",
    "image": ""
   },
   {
    "source": "Mindsparkle Mag",
    "topic": "品牌與平面",
    "region": "west",
-   "title": "FUTURE HUMAN",
-   "link": "https://mindsparklemag.com/website/future-human",
-   "date": "2026-11-14",
-   "image": "https://mindsparklemag.com/storage/media/32672/future-human-immersive-3d-website-guidance-programme-rabenrifaie-web-design-mindsparkle-mag-1.jpg"
+   "title": "Study Hall — Agency Website",
+   "link": "https://mindsparklemag.com/website/study-hall-agency-website",
+   "date": "2026-11-17",
+   "image": "https://mindsparklemag.com/storage/media/33114/study-hall-agency-website-homepage-web-design-mindsparkle-mag-1.jpg"
   },
   {
    "source": "Typewolf",
@@ -348,37 +348,37 @@ window.DESIGN_FEED = {
    "source": "Creative Review",
    "topic": "廣告與視覺文化",
    "region": "west",
-   "title": "New book charts Tadanori Yokoo’s illustrious career",
-   "link": "https://www.creativereview.co.uk/tadanori-yokoo-retrospective-monograph-japanese-art/",
-   "date": "2026-11-16",
-   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/Tadanori-Yokoo-Moat.jpg"
+   "title": "A look inside a great CMO-agency relationship",
+   "link": "https://www.creativereview.co.uk/cmo-agency-relationship-telstra-bear-meets-eagle-on-fire/",
+   "date": "2026-11-17",
+   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/WWG9.jpg"
   },
   {
    "source": "BP&O",
    "topic": "品牌識別評論",
    "region": "west",
-   "title": "Otherway’s new identity for The Whisky Exchange balances heritage with a more contemporary spirit",
-   "link": "https://bpando.org/2026/11/10/otherway-the-whisky-exchange-contemporary-heritage-brand-identity-design/",
-   "date": "2026-11-10",
-   "image": "https://bpando.org/wp-content/uploads/whisky-exchange-otherway-brand-identity-design-bpo-review-logo-motion.png"
+   "title": "Swedes Love Fish. Just Not All Year.",
+   "link": "https://bpando.org/2026/11/11/swedes-love-fish/",
+   "date": "2026-11-11",
+   "image": "https://bpando.org/wp-content/uploads/korshags-pond-salmon-packs-wide.jpg"
   },
   {
    "source": "Creative Boom",
    "topic": "平面、插畫、品牌",
    "region": "west",
-   "title": "Suggestive animation Beat Cancer Off finds the humour in a serious topic",
-   "link": "https://www.creativeboom.com/inspiration/suggestive-animation-beat-cancer-off-finds-the-humour-in-a-serious-topic/",
-   "date": "2026-11-16",
-   "image": "https://media.creativeboom.com/e2c0360a-dfef-4082-b412-7468414dcb37/conversions/d1d92c351d5c97d57925f55d9795d8e2e41ff30d-medium.webp"
+   "title": "Sheep, polka dots and graphic wanderings: inside Ines Launay's playful world of illustration",
+   "link": "https://www.creativeboom.com/inspiration/sheep-polka-dots-and-graphic-wanderings-inside-ines-launays-playful-world-of-illustration/",
+   "date": "2026-11-17",
+   "image": "https://media.creativeboom.com/ee1b9908-8317-4b38-a663-07ba378c6c00/conversions/0da3fe6d904f53d27725b7d2223bcd51e8466ebd-medium.webp"
   },
   {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "Allo: Open Source Typography by Josh Puckett",
-   "link": "https://abduzeedo.com/allo-open-source-typography-josh-puckett/",
-   "date": "2026-11-16",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_allo-your-friendly-neighborhood-font-josh-puckett_3.jpg"
+   "title": "Mother Design Reimagines Modern Wellness Branding for Keen",
+   "link": "https://abduzeedo.com/mother-design-reimagines-modern-wellness-branding-keen/",
+   "date": "2026-11-17",
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_keen-mother-design.jpg"
   },
   {
    "source": "IDEA Magazine",
@@ -447,19 +447,19 @@ window.DESIGN_FEED = {
    "source": "Slanted",
    "topic": "字體與編排",
    "region": "west",
-   "title": "Ride or Art",
-   "link": "https://www.slanted.de/ride-or-art/",
-   "date": "2026-11-11",
+   "title": "The NoGood Book",
+   "link": "https://www.slanted.de/the-nogood-book/",
+   "date": "2026-11-12",
    "image": ""
   },
   {
    "source": "Mindsparkle Mag",
    "topic": "品牌與平面",
    "region": "west",
-   "title": "The LED truck launch that turned a studio's portfolio into a browser game",
-   "link": "https://mindsparklemag.com/designs/the-led-truck-launch-that-turned-a-studios-portfolio-into-a-browser-game",
-   "date": "2026-11-13",
-   "image": "https://mindsparklemag.com/storage/media/32821/out-of-office-browser-game-key-art-led-truck-the-collected-works-mindsparkle-mag-1.jpg"
+   "title": "A mirror-silver box makes unwrapping 25 years of ceramics a ritual",
+   "link": "https://mindsparklemag.com/designs/a-mirror-silver-box-makes-unwrapping-25-years-of-ceramics-a-ritual",
+   "date": "2026-11-16",
+   "image": "https://mindsparklemag.com/storage/media/32929/1st25y-luminous-design-silver-ceramics-gift-box-packaging-cover-mindsparkle-mag-1.jpg"
   },
   {
    "source": "Typewolf",
@@ -474,37 +474,37 @@ window.DESIGN_FEED = {
    "source": "Creative Review",
    "topic": "廣告與視覺文化",
    "region": "west",
-   "title": "The Conversation: The state of freelancing",
-   "link": "https://www.creativereview.co.uk/the-conversation-the-state-of-freelancing/",
+   "title": "New book charts Tadanori Yokoo’s illustrious career",
+   "link": "https://www.creativereview.co.uk/tadanori-yokoo-retrospective-monograph-japanese-art/",
    "date": "2026-11-16",
-   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/bbc_square-eyed-boy-hed_0.jpg"
+   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/Tadanori-Yokoo-Moat.jpg"
   },
   {
    "source": "BP&O",
    "topic": "品牌識別評論",
    "region": "west",
-   "title": "Mother Design pilfers from Y2K aesthetics and cymatic patterns in its masterful identity for spirituality app Purple Garden",
-   "link": "https://bpando.org/2026/11/05/mother-design-brand-identity-spirituality-app-purple-garden/",
-   "date": "2026-11-05",
-   "image": "https://bpando.org/wp-content/uploads/purple-garden-mother-design-branding-identity-design-bpo-review-wordmakr-1024x615.avif"
+   "title": "Otherway’s new identity for The Whisky Exchange balances heritage with a more contemporary spirit",
+   "link": "https://bpando.org/2026/11/10/otherway-the-whisky-exchange-contemporary-heritage-brand-identity-design/",
+   "date": "2026-11-10",
+   "image": "https://bpando.org/wp-content/uploads/whisky-exchange-otherway-brand-identity-design-bpo-review-logo-motion.png"
   },
   {
    "source": "Creative Boom",
    "topic": "平面、插畫、品牌",
    "region": "west",
-   "title": "Max Cameron's subversive cigarette packs roast the wilder claims of AI hype",
-   "link": "https://www.creativeboom.com/news/max-cameron-roasts-the-arrogance-of-ai-tech-bros-with-subversive-cigarette-packaging/",
-   "date": "2026-11-16",
-   "image": "https://media.creativeboom.com/a2668030-f2ab-449e-8690-5b7ffe96e46c/conversions/83532b022568b4eba106da0aa7d05a2a90a085f3-medium.webp"
+   "title": "This non-alcoholic aperitif packaging was made with real plants, sunlight and embossed glass",
+   "link": "https://www.creativeboom.com/news/this-non-alcoholic-aperitif-packaging-was-made-with-real-plants-sunlight-and-embossed-glass/",
+   "date": "2026-11-17",
+   "image": "https://media.creativeboom.com/8656258e-72e7-47a0-9f26-f477e98d187c/conversions/6e4a9bdaf0c46d9a0403be4e4f461a27291c41a0-medium.webp"
   },
   {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "Sports: MLB Brand Identity by Mother Design",
-   "link": "https://abduzeedo.com/sports-mlb-brand-identity-mother-design/",
-   "date": "2026-11-16",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_38.jpg"
+   "title": "One Month of MaPC: 32 Versions Later",
+   "link": "https://abduzeedo.com/one-month-mapc-32-versions-later/",
+   "date": "2026-11-17",
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_100.jpg"
   },
   {
    "source": "IDEA Magazine",
@@ -573,19 +573,19 @@ window.DESIGN_FEED = {
    "source": "Slanted",
    "topic": "字體與編排",
    "region": "west",
-   "title": "Yearbook of Type #8",
-   "link": "https://www.slanted.de/yearbook-of-type-8/",
-   "date": "2026-11-10",
-   "image": "https://s.w.org/images/core/emoji/15.0.3/72x72/2122.png"
+   "title": "Ride or Art",
+   "link": "https://www.slanted.de/ride-or-art/",
+   "date": "2026-11-11",
+   "image": ""
   },
   {
    "source": "Mindsparkle Mag",
    "topic": "品牌與平面",
    "region": "west",
-   "title": "Emiglia’s red wordmark ties a Porto pasta factory to its pasta bar",
-   "link": "https://mindsparklemag.com/designs/emiglias-red-wordmark-ties-a-porto-pasta-factory-to-its-pasta-bar",
-   "date": "2026-11-12",
-   "image": "https://mindsparklemag.com/storage/media/32898/emiglia-fresh-pasta-packaging-brand-identity-cover-mindsparkle-mag-1.jpg"
+   "title": "JIMMY's morphing identity mirrors the AI films it makes",
+   "link": "https://mindsparklemag.com/designs/jimmys-morphing-identity-mirrors-the-ai-films-it-makes",
+   "date": "2026-11-14",
+   "image": "https://mindsparklemag.com/storage/media/32996/jimmy-ai-vfx-studio-website-homepage-brand-identity-mindsparkle-mag-1.jpg"
   },
   {
    "source": "Typewolf",
@@ -600,37 +600,37 @@ window.DESIGN_FEED = {
    "source": "Creative Review",
    "topic": "廣告與視覺文化",
    "region": "west",
-   "title": "Shopify turns ideas into reality in new brand campaign",
-   "link": "https://www.creativereview.co.uk/shopify-brand-campaign-just-an-idea-mother-los-angeles/",
+   "title": "The Conversation: The state of freelancing",
+   "link": "https://www.creativereview.co.uk/the-conversation-the-state-of-freelancing/",
    "date": "2026-11-16",
-   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/SHOPIFY-JAI-HERO-Image-16x9-1.jpg"
+   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/bbc_square-eyed-boy-hed_0.jpg"
   },
   {
    "source": "BP&O",
    "topic": "品牌識別評論",
    "region": "west",
-   "title": "Tied With Care",
-   "link": "https://bpando.org/2026/11/04/tied-with-care/",
-   "date": "2026-11-04",
-   "image": "https://bpando.org/wp-content/uploads/julia-hey-ribbon-wordmark.jpg"
+   "title": "Mother Design pilfers from Y2K aesthetics and cymatic patterns in its masterful identity for spirituality app Purple Garden",
+   "link": "https://bpando.org/2026/11/05/mother-design-brand-identity-spirituality-app-purple-garden/",
+   "date": "2026-11-05",
+   "image": "https://bpando.org/wp-content/uploads/purple-garden-mother-design-branding-identity-design-bpo-review-wordmakr-1024x615.avif"
   },
   {
    "source": "Creative Boom",
    "topic": "平面、插畫、品牌",
    "region": "west",
-   "title": "What 50 years in business has taught Springetts about building brands that thrive",
-   "link": "https://www.creativeboom.com/insight/what-50-years-in-business-has-taught-springetts-about-building-brands-that-thrive/",
-   "date": "2026-11-12",
-   "image": "https://media.creativeboom.com/2a7e4cff-d754-4cbd-b6b9-6c1befa6e951/conversions/13b4b0ddbe1e1a99b20024dc92220bc12027e553-medium.webp"
+   "title": "Donna Fredin switched from design to illustration, now she's drawing fun, awkward characters that capture life’s strange moments",
+   "link": "https://www.creativeboom.com/inspiration/donna-fredin-switched-from-design-to-illustration-now-shes-drawing-fun-awkward-characters-that-capture-lifes-strange-moments/",
+   "date": "2026-11-16",
+   "image": "https://media.creativeboom.com/02b72165-fae6-46f3-a3df-e3fbf9baf077/conversions/646e2ed96e44791d3e5a8ee887e8bcc7faadfdb1-medium.webp"
   },
   {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "Die Grotesk: Klim Type Foundry Reexamines Neo-Grotesque Type",
-   "link": "https://abduzeedo.com/die-grotesk-klim-type-foundry-reexamines-neo-grotesque-type/",
-   "date": "2026-11-16",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_klim-type-foundry-die-grotesk-design-information-klim-co-nz.jpg"
+   "title": "Inside the Craft of the Snapple Rebrand 2026 by Deutsch Design",
+   "link": "https://abduzeedo.com/inside-craft-snapple-rebrand-2026-deutsch-design/",
+   "date": "2026-11-17",
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_39.jpg"
   },
   {
    "source": "IDEA Magazine",
