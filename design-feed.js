@@ -1,6 +1,6 @@
 // 由 update_design.py 產生，請勿手動編輯
 window.DESIGN_FEED = {
- "updated": "2026-11-21",
+ "updated": "2026-11-23",
  "items": [
   {
    "source": "IDEA Magazine",
@@ -39,6 +39,15 @@ window.DESIGN_FEED = {
    "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/07/IMG_2286.jpg?resize=1000%2C750&#038;quality=89&#038;ssl=1"
   },
   {
+   "source": "PRINT · Typography",
+   "topic": "字體與排印",
+   "region": "west",
+   "title": "The Daily Heller: Everyday Design From Everywhere in Forest Hills and Beyond",
+   "link": "https://www.printmag.com/daily-heller/the-daily-heller-6/",
+   "date": "2026-11-10",
+   "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/02/99-typeobjt-TDC-party.jpeg?resize=1000%2C526&#038;quality=89&#038;ssl=1"
+  },
+  {
    "source": "Grafik",
    "topic": "平面設計",
    "region": "west",
@@ -69,10 +78,10 @@ window.DESIGN_FEED = {
    "source": "Mindsparkle Mag",
    "topic": "品牌與平面",
    "region": "west",
-   "title": "Papier’s open-book logo invites a little magic into stationery",
-   "link": "https://mindsparklemag.com/designs/papiers-open-book-logo-invites-a-little-magic-into-stationery",
-   "date": "2026-11-20",
-   "image": "https://mindsparklemag.com/storage/media/33338/papier-tote-bag-with-open-book-logo-cover-brand-identity-ragged-edge-mindsparkle-mag-1.jpg"
+   "title": "OpenTrade’s halftone cube gives stablecoin yield a calm, human face",
+   "link": "https://mindsparklemag.com/website/opentrade",
+   "date": "2026-11-22",
+   "image": "https://mindsparklemag.com/storage/media/33082/opentrade-stablecoin-fintech-brand-identity-website-design-mindsparkle-mag-1.jpg"
   },
   {
    "source": "Typewolf",
@@ -114,10 +123,10 @@ window.DESIGN_FEED = {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "The Book Design of ADI Design Museum’s Compasso d’Oro",
-   "link": "https://abduzeedo.com/book-design-adi-design-museums-compasso-doro/",
-   "date": "2026-11-21",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_compasso-d-oro-adi-design-museum-fonts-use.jpg"
+   "title": "Johnson Banks Unveils the RIBA brand identity",
+   "link": "https://abduzeedo.com/johnson-banks-unveils-riba-brand-identity/",
+   "date": "2026-11-22",
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_3d.jpg"
   },
   {
    "source": "IDEA Magazine",
@@ -156,6 +165,15 @@ window.DESIGN_FEED = {
    "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/04/IMG_51231.jpg?resize=1000%2C1000&#038;quality=89&#038;ssl=1"
   },
   {
+   "source": "PRINT · Typography",
+   "topic": "字體與排印",
+   "region": "west",
+   "title": "The Daily Heller: Findings of a Monogrammarian",
+   "link": "https://www.printmag.com/daily-heller/the-daily-heller-findings-of-a-monogrammarian/",
+   "date": "2026-10-14",
+   "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/10/Screen-Shot-2026-10-13-at-10.00.30-AM.png?resize=721%2C1024&#038;quality=80&#038;ssl=1"
+  },
+  {
    "source": "Grafik",
    "topic": "平面設計",
    "region": "west",
@@ -186,10 +204,10 @@ window.DESIGN_FEED = {
    "source": "Mindsparkle Mag",
    "topic": "品牌與平面",
    "region": "west",
-   "title": "Poets’ own lines become the artwork in the Poetry Foundation’s new identity",
-   "link": "https://mindsparklemag.com/designs/poets-own-lines-become-the-artwork-in-the-poetry-foundations-new-identity",
+   "title": "Papier’s open-book logo invites a little magic into stationery",
+   "link": "https://mindsparklemag.com/designs/papiers-open-book-logo-invites-a-little-magic-into-stationery",
    "date": "2026-11-20",
-   "image": "https://mindsparklemag.com/storage/media/33274/poetry-foundation-brand-identity-collage-cover-brand-identity-pentagram-mindsparkle-mag-1.jpg"
+   "image": "https://mindsparklemag.com/storage/media/33338/papier-tote-bag-with-open-book-logo-cover-brand-identity-ragged-edge-mindsparkle-mag-1.jpg"
   },
   {
    "source": "Typewolf",
@@ -231,10 +249,10 @@ window.DESIGN_FEED = {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "How STUDIO HERRSTRÖM Reimagined the Milkshake brand identity",
-   "link": "https://abduzeedo.com/how-studio-herrstrom-reimagined-milkshake-brand-identity/",
-   "date": "2026-11-21",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_49.jpg"
+   "title": "Best of the Week: Die Grotesk, B416, and Sonny's Corner",
+   "link": "https://abduzeedo.com/best-week-die-grotesk-b416-and-sonnys-corner/",
+   "date": "2026-11-22",
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_best-of-week-2026-W47.jpg"
   },
   {
    "source": "IDEA Magazine",
@@ -273,6 +291,15 @@ window.DESIGN_FEED = {
    "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/03/BSS_002.jpg?resize=749%2C1024&#038;quality=89&#038;ssl=1"
   },
   {
+   "source": "PRINT · Typography",
+   "topic": "字體與排印",
+   "region": "west",
+   "title": "The Lettering Artist Snooze is a Master of Type Experimentation and Process",
+   "link": "https://www.printmag.com/typography/snooze-lettering-and-calligraffiti-artist/",
+   "date": "2026-10-06",
+   "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/09/Screenshot-2026-09-29-at-12.28.53-PM.png?resize=1000%2C567&#038;quality=80&#038;ssl=1"
+  },
+  {
    "source": "Grafik",
    "topic": "平面設計",
    "region": "west",
@@ -303,10 +330,10 @@ window.DESIGN_FEED = {
    "source": "Mindsparkle Mag",
    "topic": "品牌與平面",
    "region": "west",
-   "title": "Botanical plates meet plant-ID scans in SurrealScapes' native garden brand",
-   "link": "https://mindsparklemag.com/designs/botanical-plates-meet-plant-id-scans-in-surrealscapes-native-garden-brand",
+   "title": "Poets’ own lines become the artwork in the Poetry Foundation’s new identity",
+   "link": "https://mindsparklemag.com/designs/poets-own-lines-become-the-artwork-in-the-poetry-foundations-new-identity",
    "date": "2026-11-20",
-   "image": "https://mindsparklemag.com/storage/media/33036/surrealscapes-sydney-native-landscape-design-brand-identity-cover-mindsparkle-mag-2.jpg"
+   "image": "https://mindsparklemag.com/storage/media/33274/poetry-foundation-brand-identity-collage-cover-brand-identity-pentagram-mindsparkle-mag-1.jpg"
   },
   {
    "source": "Typewolf",
@@ -348,10 +375,10 @@ window.DESIGN_FEED = {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "HelloAsso: Civic Non-Profit Brand Identity by Bruno",
-   "link": "https://abduzeedo.com/helloasso-civic-non-profit-brand-identity-bruno/",
-   "date": "2026-11-20",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_bruno-s-helloasso-identity-follows-france-s-brand-identity.jpg"
+   "title": "Inside Pentagram’s Brand Identity for Poetry Foundation",
+   "link": "https://abduzeedo.com/inside-pentagrams-brand-identity-poetry-foundation/",
+   "date": "2026-11-22",
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_poetry.jpg"
   },
   {
    "source": "IDEA Magazine",
@@ -390,6 +417,15 @@ window.DESIGN_FEED = {
    "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/02/annual-FFK-2025.gif?resize=1000%2C707&#038;ssl=1"
   },
   {
+   "source": "PRINT · Typography",
+   "topic": "字體與排印",
+   "region": "west",
+   "title": "Lost in Translation? A Designer’s Guide to Japanese Type",
+   "link": "https://www.printmag.com/type-tuesday/lost-in-translation-a-designers-guide-to-japanese-type/",
+   "date": "2026-09-08",
+   "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/09/J-Type-101-2.jpg?resize=1000%2C750&#038;quality=89&#038;ssl=1"
+  },
+  {
    "source": "Grafik",
    "topic": "平面設計",
    "region": "west",
@@ -420,10 +456,10 @@ window.DESIGN_FEED = {
    "source": "Mindsparkle Mag",
    "topic": "品牌與平面",
    "region": "west",
-   "title": "London Film School frames its punk roots in a single red bar",
-   "link": "https://mindsparklemag.com/designs/london-film-school-frames-its-punk-roots-in-a-single-red-bar",
+   "title": "Botanical plates meet plant-ID scans in SurrealScapes' native garden brand",
+   "link": "https://mindsparklemag.com/designs/botanical-plates-meet-plant-id-scans-in-surrealscapes-native-garden-brand",
    "date": "2026-11-20",
-   "image": "https://mindsparklemag.com/storage/media/33199/london-film-school-red-framed-logotype-cover-rabbithole-brand-identity-mindsparkle-mag-1.jpg"
+   "image": "https://mindsparklemag.com/storage/media/33036/surrealscapes-sydney-native-landscape-design-brand-identity-cover-mindsparkle-mag-2.jpg"
   },
   {
    "source": "Typewolf",
@@ -465,10 +501,10 @@ window.DESIGN_FEED = {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "Mutabor Unveils the Voith brand identity",
-   "link": "https://abduzeedo.com/mutabor-unveils-voith-brand-identity/",
-   "date": "2026-11-20",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_48.jpg"
+   "title": "Insomnia Cookies Rebrand Is a Masterclass in Branding by &Walsh",
+   "link": "https://abduzeedo.com/insomnia-cookies-rebrand-masterclass-branding-walsh/",
+   "date": "2026-11-22",
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_51.jpg"
   },
   {
    "source": "IDEA Magazine",
@@ -507,6 +543,15 @@ window.DESIGN_FEED = {
    "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/02/8a46b3db-cb93-4891-a3e7-df20f0af8ec6.jpg?resize=1000%2C468&#038;quality=89&#038;ssl=1"
   },
   {
+   "source": "PRINT · Typography",
+   "topic": "字體與排印",
+   "region": "west",
+   "title": "Gotham Variable and the Art of Evolution",
+   "link": "https://www.printmag.com/type-tuesday/gotham-variable-and-the-art-of-evolution/",
+   "date": "2026-08-18",
+   "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/08/FINAL_2677.jpg?resize=1000%2C563&#038;quality=89&#038;ssl=1"
+  },
+  {
    "source": "Grafik",
    "topic": "平面設計",
    "region": "west",
@@ -537,10 +582,10 @@ window.DESIGN_FEED = {
    "source": "Mindsparkle Mag",
    "topic": "品牌與平面",
    "region": "west",
-   "title": "Huxter turns the act of dispensing into a forward-pointing symbol",
-   "link": "https://mindsparklemag.com/designs/huxter-turns-the-act-of-dispensing-into-a-forward-pointing-symbol",
-   "date": "2026-11-19",
-   "image": "https://mindsparklemag.com/storage/media/33179/huxter-smart-retail-systems-poster-purple-hand-brand-identity-mindsparkle-mag-1.jpg"
+   "title": "London Film School frames its punk roots in a single red bar",
+   "link": "https://mindsparklemag.com/designs/london-film-school-frames-its-punk-roots-in-a-single-red-bar",
+   "date": "2026-11-20",
+   "image": "https://mindsparklemag.com/storage/media/33199/london-film-school-red-framed-logotype-cover-rabbithole-brand-identity-mindsparkle-mag-1.jpg"
   },
   {
    "source": "Typewolf",
@@ -582,10 +627,10 @@ window.DESIGN_FEED = {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "Web Design: Petrillo Studio’s Interactive Chronometer",
-   "link": "https://abduzeedo.com/web-design-petrillo-studios-interactive-chronometer/",
-   "date": "2026-11-20",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_petrillo-studio-minimal-gallery-minimal-gallery.jpg"
+   "title": "London Film School: Rebellious Branding by Rabbithole",
+   "link": "https://abduzeedo.com/london-film-school-rebellious-branding-rabbithole/",
+   "date": "2026-11-21",
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_london-film-school-finding-voice-film-visuelle.jpg"
   },
   {
    "source": "IDEA Magazine",
