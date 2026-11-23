@@ -96,10 +96,10 @@ window.DESIGN_FEED = {
    "source": "Creative Review",
    "topic": "廣告與視覺文化",
    "region": "west",
-   "title": "Why brands are hungry for Min KyungJin",
-   "link": "https://www.creativereview.co.uk/min-kyungjin-food-artist-brands/",
-   "date": "2026-11-20",
-   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/featAbercrombie4-screenshot-2.jpg"
+   "title": "DNCO designs wayfinding system for the Natural History Museum",
+   "link": "https://www.creativereview.co.uk/dnco-wayfinding-natural-history-museum/",
+   "date": "2026-11-23",
+   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/MixCollage-19-Nov-2026-02-49-PM-6856.jpg"
   },
   {
    "source": "BP&O",
@@ -114,19 +114,19 @@ window.DESIGN_FEED = {
    "source": "Creative Boom",
    "topic": "平面、插畫、品牌",
    "region": "west",
-   "title": "Turner Duckworth dips Maker's Mark's new identity in red wax",
-   "link": "https://www.creativeboom.com/news/turner-duckworth-dips-makers-marks-new-identity-in-red-wax/",
-   "date": "2026-11-19",
-   "image": "https://media.creativeboom.com/5dd95288-2e3c-488a-886b-3a3b9ade0dad/conversions/ea9cd8a6eadc0edab8db975a313e0479555e4266-medium.webp"
+   "title": "Luke McConkey on spreading a pandemic of joy and working with Uniqlo",
+   "link": "https://www.creativeboom.com/insight/luke-mcconkey-on-spreading-a-pandemic-of-joy-and-working-with-uniqlo/",
+   "date": "2026-11-23",
+   "image": "https://media.creativeboom.com/b2580a03-b7a8-48c4-b9d0-ee4616d959bd/conversions/d58177b2e9387d38ee4468bccf934b343de1dc64-medium.webp"
   },
   {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "Johnson Banks Unveils the RIBA brand identity",
-   "link": "https://abduzeedo.com/johnson-banks-unveils-riba-brand-identity/",
-   "date": "2026-11-22",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_3d.jpg"
+   "title": "Juana Brand Identity Is a Masterclass in Branding by Made Thought",
+   "link": "https://abduzeedo.com/juana-brand-identity-masterclass-branding-made-thought/",
+   "date": "2026-11-23",
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_53.jpg"
   },
   {
    "source": "IDEA Magazine",
@@ -222,10 +222,10 @@ window.DESIGN_FEED = {
    "source": "Creative Review",
    "topic": "廣告與視覺文化",
    "region": "west",
-   "title": "Andstudio creates maritime-inspired identity for Rotterdam bistro",
-   "link": "https://www.creativereview.co.uk/andstudio-maritime-inspired-identity-rotterdam-bistro-werf/",
-   "date": "2026-11-20",
-   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/Werf-2.jpg"
+   "title": "KitKat Vietnam sneaks break reminders into developers’ code",
+   "link": "https://www.creativereview.co.uk/kitkat-code-leo-vietnam-campaign/",
+   "date": "2026-11-23",
+   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/MixCollage-18-Nov-2026-04-15-PM-923.jpg"
   },
   {
    "source": "BP&O",
@@ -240,19 +240,19 @@ window.DESIGN_FEED = {
    "source": "Creative Boom",
    "topic": "平面、插畫、品牌",
    "region": "west",
-   "title": "&Walsh takes a bite out of the moon for Insomnia Cookies",
-   "link": "https://www.creativeboom.com/news/walsh-takes-a-bite-out-of-the-moon-for-insomnia-cookies/",
-   "date": "2026-11-19",
-   "image": "https://media.creativeboom.com/b0a83434-eede-4a82-ae10-dac2643b81fa/conversions/58b13777996010f8fb5ab99f52aa5a85f78a2c48-medium.webp"
+   "title": "Why are football clubs launching Christmas campaigns (and do John Lewis and M&S have anything to worry about?)",
+   "link": "https://www.creativeboom.com/news/why-are-football-clubs-launching-christmas-campaigns-and-do-john-lewis-and-ms-have-anything-to-worry-about/",
+   "date": "2026-11-23",
+   "image": "https://media.creativeboom.com/7f435004-44be-47af-9135-2feeb5d8b74f/conversions/4374c168a5446bc68a10f07d8bc9284a3810f811-medium.webp"
   },
   {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "Best of the Week: Die Grotesk, B416, and Sonny's Corner",
-   "link": "https://abduzeedo.com/best-week-die-grotesk-b416-and-sonnys-corner/",
+   "title": "How SomeOne Reimagined the Co-op brand identity",
+   "link": "https://abduzeedo.com/how-someone-reimagined-co-op-brand-identity/",
    "date": "2026-11-22",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_best-of-week-2026-W47.jpg"
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_52.jpg"
   },
   {
    "source": "IDEA Magazine",
@@ -348,10 +348,10 @@ window.DESIGN_FEED = {
    "source": "Creative Review",
    "topic": "廣告與視覺文化",
    "region": "west",
-   "title": "Wedge studio on how everything can be special",
-   "link": "https://www.creativereview.co.uk/wedge-studio-branding-design-ten-years/",
-   "date": "2026-11-19",
-   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/Wedge_Dieline_CHA_02.jpg"
+   "title": "Should creatives care more about advertising history?",
+   "link": "https://www.creativereview.co.uk/creatives-advertising-history-does-it-matter/",
+   "date": "2026-11-23",
+   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/Guinness-Surfer.png"
   },
   {
    "source": "BP&O",
@@ -366,19 +366,19 @@ window.DESIGN_FEED = {
    "source": "Creative Boom",
    "topic": "平面、插畫、品牌",
    "region": "west",
-   "title": "It's official: creatives are using AI daily, but most aren't making extra money from it",
-   "link": "https://www.creativeboom.com/insight/its-official-creatives-are-using-ai-daily-but-theyre-not-making-extra-money/",
-   "date": "2026-11-19",
-   "image": "https://media.creativeboom.com/08df3052-d629-45cc-bde3-eb5ab6471980/conversions/15913ef8205a07a7a15667f248d897d775904c6c-medium.webp"
+   "title": "This year's holiday ads have one thing in common, and it's good news for creatives",
+   "link": "https://www.creativeboom.com/insight/this-years-holiday-ads-have-one-thing-in-common-and-its-good-news-for-creatives/",
+   "date": "2026-11-23",
+   "image": "https://media.creativeboom.com/86ec19f7-f0bf-4461-93c3-92922353426c/conversions/c809071de68df73bc4b89baa154bc88079c6cff1-medium.webp"
   },
   {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "Inside Pentagram’s Brand Identity for Poetry Foundation",
-   "link": "https://abduzeedo.com/inside-pentagrams-brand-identity-poetry-foundation/",
+   "title": "Johnson Banks Unveils the RIBA brand identity",
+   "link": "https://abduzeedo.com/johnson-banks-unveils-riba-brand-identity/",
    "date": "2026-11-22",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_poetry.jpg"
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_3d.jpg"
   },
   {
    "source": "IDEA Magazine",
@@ -474,10 +474,10 @@ window.DESIGN_FEED = {
    "source": "Creative Review",
    "topic": "廣告與視覺文化",
    "region": "west",
-   "title": "How should brands design spaces for men?",
-   "link": "https://www.creativereview.co.uk/design-male-spaces-brands-seen-studio/",
-   "date": "2026-11-19",
-   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/NIKEMIND001-12.jpg"
+   "title": "Why brands are hungry for Min KyungJin",
+   "link": "https://www.creativereview.co.uk/min-kyungjin-food-artist-brands/",
+   "date": "2026-11-20",
+   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/featAbercrombie4-screenshot-2.jpg"
   },
   {
    "source": "BP&O",
@@ -492,19 +492,19 @@ window.DESIGN_FEED = {
    "source": "Creative Boom",
    "topic": "平面、插畫、品牌",
    "region": "west",
-   "title": "Julie Legrand finds poetry in coffee pots, shells and other things you see every day",
-   "link": "https://www.creativeboom.com/inspiration/julie-legrand-finds-poetry-in-coffee-pots-shells-and-other-things-you-see-every-day/",
-   "date": "2026-11-19",
-   "image": "https://media.creativeboom.com/f34bbe46-f8bf-47f9-a600-4d7cb5c262c3/conversions/3f90a20532c0e7c5f23bcc20cc07450cdeb58f8e-medium.webp"
+   "title": "Maria Francesca Melis on embracing imperfection and the secret of successful brand collaborations",
+   "link": "https://www.creativeboom.com/inspiration/maria-francesca-melis-on-embracing-imperfection-and-the-secret-of-successful-brand-collaborations/",
+   "date": "2026-11-23",
+   "image": "https://media.creativeboom.com/7c0010a6-cc0f-4642-a749-55cd190c6d84/conversions/d60cc1e80bec40585c9796cb1df97c49cedffe29-medium.webp"
   },
   {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "Insomnia Cookies Rebrand Is a Masterclass in Branding by &Walsh",
-   "link": "https://abduzeedo.com/insomnia-cookies-rebrand-masterclass-branding-walsh/",
+   "title": "Best of the Week: Die Grotesk, B416, and Sonny's Corner",
+   "link": "https://abduzeedo.com/best-week-die-grotesk-b416-and-sonnys-corner/",
    "date": "2026-11-22",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_51.jpg"
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_best-of-week-2026-W47.jpg"
   },
   {
    "source": "IDEA Magazine",
@@ -567,7 +567,7 @@ window.DESIGN_FEED = {
    "title": "Paper, Poppies and the Artists Who Brought Them to Life",
    "link": "https://peopleofprint.com/editorial/features/paper-poppies-and-the-artists-who-brought-them-to-life/",
    "date": "2026-11-11",
-   "image": "https://i0.wp.com/peopleofprint.com/wp-content/uploads/2026/11/4.jpg?resize=1434%2C2151&#038;quality=89&#038;ssl=1"
+   "image": "https://i0.wp.com/peopleofprint.com/wp-content/uploads/2026/11/5-768x1024-1.jpg?resize=768%2C1024&#038;quality=89&#038;ssl=1"
   },
   {
    "source": "Slanted",
@@ -600,10 +600,10 @@ window.DESIGN_FEED = {
    "source": "Creative Review",
    "topic": "廣告與視覺文化",
    "region": "west",
-   "title": "Welcome to Vice City: how brands hijacked the GTA VI launch",
-   "link": "https://www.creativereview.co.uk/gta-vi-launch-rockstar-games-marketing-brands/",
-   "date": "2026-11-19",
-   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/GTAVI-1.jpg"
+   "title": "Andstudio creates maritime-inspired identity for Rotterdam bistro",
+   "link": "https://www.creativereview.co.uk/andstudio-maritime-inspired-identity-rotterdam-bistro-werf/",
+   "date": "2026-11-20",
+   "image": "https://d3e341ktepti6g.cloudfront.net/uploads/2026/11/Werf-2.jpg"
   },
   {
    "source": "BP&O",
@@ -618,19 +618,19 @@ window.DESIGN_FEED = {
    "source": "Creative Boom",
    "topic": "平面、插畫、品牌",
    "region": "west",
-   "title": "Why GTA 6 is the year's biggest campaign for a brand that refuses to sell ad space",
-   "link": "https://www.creativeboom.com/insight/why-gta-6-is-the-years-biggest-campaign-for-a-brand-that-refuses-to-sell-ad-space/",
-   "date": "2026-11-18",
-   "image": "https://media.creativeboom.com/0a6dcd85-5b54-475a-b87b-467af9d96e9f/conversions/b31e24eacfdd595e6e1fc85c4b6aa9725c552cec-medium.webp"
+   "title": "Turner Duckworth dips Maker's Mark's new identity in red wax",
+   "link": "https://www.creativeboom.com/news/turner-duckworth-dips-makers-marks-new-identity-in-red-wax/",
+   "date": "2026-11-19",
+   "image": "https://media.creativeboom.com/5dd95288-2e3c-488a-886b-3a3b9ade0dad/conversions/ea9cd8a6eadc0edab8db975a313e0479555e4266-medium.webp"
   },
   {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "London Film School: Rebellious Branding by Rabbithole",
-   "link": "https://abduzeedo.com/london-film-school-rebellious-branding-rabbithole/",
-   "date": "2026-11-21",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_london-film-school-finding-voice-film-visuelle.jpg"
+   "title": "Inside Pentagram’s Brand Identity for Poetry Foundation",
+   "link": "https://abduzeedo.com/inside-pentagrams-brand-identity-poetry-foundation/",
+   "date": "2026-11-22",
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_poetry.jpg"
   },
   {
    "source": "IDEA Magazine",
