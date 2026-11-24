@@ -1,6 +1,6 @@
 // 由 update_design.py 產生，請勿手動編輯
 window.DESIGN_FEED = {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "items": [
   {
    "source": "IDEA Magazine",
@@ -30,24 +30,6 @@ window.DESIGN_FEED = {
    "image": "https://spoon-tamago.com/wp-content/uploads/2026/09/japan-packaging-design-awards-2027-top-prize.jpg"
   },
   {
-   "source": "PRINT · Poster Design",
-   "topic": "海報設計",
-   "region": "west",
-   "title": "The Daily Heller: Das Plakat From Germany and Switzerland",
-   "link": "https://www.printmag.com/daily-heller/the-daily-heller-das-plakat-in-germany-and-switzerland/",
-   "date": "2026-07-19",
-   "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/07/IMG_2286.jpg?resize=1000%2C750&#038;quality=89&#038;ssl=1"
-  },
-  {
-   "source": "PRINT · Typography",
-   "topic": "字體與排印",
-   "region": "west",
-   "title": "The Daily Heller: Everyday Design From Everywhere in Forest Hills and Beyond",
-   "link": "https://www.printmag.com/daily-heller/the-daily-heller-6/",
-   "date": "2026-11-10",
-   "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/02/99-typeobjt-TDC-party.jpeg?resize=1000%2C526&#038;quality=89&#038;ssl=1"
-  },
-  {
    "source": "Grafik",
    "topic": "平面設計",
    "region": "west",
@@ -60,19 +42,19 @@ window.DESIGN_FEED = {
    "source": "People of Print",
    "topic": "印刷與平面",
    "region": "west",
-   "title": "Half the Process Happens Before the Cutting: Baddeley Brothers and the Hand Engravers’ Association",
-   "link": "https://peopleofprint.com/editorial/member/half-the-process-happens-before-the-cutting-baddeley-brothers-and-the-hand-engravers-association/",
-   "date": "2026-11-20",
-   "image": "https://i0.wp.com/peopleofprint.com/wp-content/uploads/2026/11/Cutting-the-Force-high-1.gif?resize=739%2C415&#038;ssl=1"
+   "title": "Finding Something Tender in What You Almost Threw Away: Ya Wen Li’s Papillon",
+   "link": "https://peopleofprint.com/publishing/finding-something-tender-in-what-you-almost-threw-away-ya-wen-lis-papillon/",
+   "date": "2026-11-23",
+   "image": "https://i0.wp.com/peopleofprint.com/wp-content/uploads/2026/11/YaWenLi2.png?resize=1024%2C1024&#038;quality=80&#038;ssl=1"
   },
   {
    "source": "Slanted",
    "topic": "字體與編排",
    "region": "west",
-   "title": "Slanted Open House / Seoul Release Party",
-   "link": "https://www.slanted.de/slanted-open-house-seoul-release-party-recap/",
-   "date": "2026-11-20",
-   "image": "https://s.w.org/images/core/emoji/15.0.3/72x72/2764.png"
+   "title": "Se Micro",
+   "link": "https://www.slanted.de/se-micro/",
+   "date": "2026-11-23",
+   "image": ""
   },
   {
    "source": "Mindsparkle Mag",
@@ -114,19 +96,19 @@ window.DESIGN_FEED = {
    "source": "Creative Boom",
    "topic": "平面、插畫、品牌",
    "region": "west",
-   "title": "Luke McConkey on spreading a pandemic of joy and working with Uniqlo",
-   "link": "https://www.creativeboom.com/insight/luke-mcconkey-on-spreading-a-pandemic-of-joy-and-working-with-uniqlo/",
+   "title": "This year's holiday ads have one thing in common, and it's good news for creatives",
+   "link": "https://www.creativeboom.com/insight/this-years-holiday-ads-have-one-thing-in-common-and-its-good-news-for-creatives/",
    "date": "2026-11-23",
-   "image": "https://media.creativeboom.com/b2580a03-b7a8-48c4-b9d0-ee4616d959bd/conversions/d58177b2e9387d38ee4468bccf934b343de1dc64-medium.webp"
+   "image": "https://media.creativeboom.com/86ec19f7-f0bf-4461-93c3-92922353426c/conversions/c809071de68df73bc4b89baa154bc88079c6cff1-medium.webp"
   },
   {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "Juana Brand Identity Is a Masterclass in Branding by Made Thought",
-   "link": "https://abduzeedo.com/juana-brand-identity-masterclass-branding-made-thought/",
+   "title": "STOW: Precision Coffee Packaging Design by .raw",
+   "link": "https://abduzeedo.com/stow-precision-coffee-packaging-design-raw/",
    "date": "2026-11-23",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_53.jpg"
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_how-raw-reworked-stow-s-identity-make-brand-identity.jpg"
   },
   {
    "source": "IDEA Magazine",
@@ -156,24 +138,6 @@ window.DESIGN_FEED = {
    "image": "https://spoon-tamago.com/wp-content/uploads/2026/04/japan-tea-shizuoka-goods.jpg"
   },
   {
-   "source": "PRINT · Poster Design",
-   "topic": "海報設計",
-   "region": "west",
-   "title": "The Daily Heller: Posters Were Holland’s Secret Passion",
-   "link": "https://www.printmag.com/daily-heller/the-daily-heller-posters-were-hollands-secret-passion/",
-   "date": "2026-04-10",
-   "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/04/IMG_51231.jpg?resize=1000%2C1000&#038;quality=89&#038;ssl=1"
-  },
-  {
-   "source": "PRINT · Typography",
-   "topic": "字體與排印",
-   "region": "west",
-   "title": "The Daily Heller: Findings of a Monogrammarian",
-   "link": "https://www.printmag.com/daily-heller/the-daily-heller-findings-of-a-monogrammarian/",
-   "date": "2026-10-14",
-   "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/10/Screen-Shot-2026-10-13-at-10.00.30-AM.png?resize=721%2C1024&#038;quality=80&#038;ssl=1"
-  },
-  {
    "source": "Grafik",
    "topic": "平面設計",
    "region": "west",
@@ -186,19 +150,19 @@ window.DESIGN_FEED = {
    "source": "People of Print",
    "topic": "印刷與平面",
    "region": "west",
-   "title": "Somewhere to Last: Ole Henrik Henriksen’s Touching Grass",
-   "link": "https://peopleofprint.com/disciplines/photography/somewhere-to-last-ole-henrik-henriksens-touching-grass/",
-   "date": "2026-11-18",
-   "image": "https://i0.wp.com/peopleofprint.com/wp-content/uploads/2026/11/OleHenrikHenriksen3.jpg?resize=819%2C1024&#038;quality=89&#038;ssl=1"
+   "title": "Print Scotland Apprentice of the Year Awards 2026",
+   "link": "https://peopleofprint.com/industry/print-scotland-apprentice-of-the-year-awards-2026/",
+   "date": "2026-11-23",
+   "image": "https://i0.wp.com/peopleofprint.com/wp-content/uploads/2026/11/Print-Apprentice-Awards-2026-Aidan-McQuade-with-Michiel-Molenaar-Print-Scotland-President.jpg?resize=1024%2C731&#038;quality=89&#038;ssl=1"
   },
   {
    "source": "Slanted",
    "topic": "字體與編排",
    "region": "west",
-   "title": "Typography as Spacial Intervention",
-   "link": "https://www.slanted.de/typography-as-spacial-intervention/",
-   "date": "2026-11-19",
-   "image": ""
+   "title": "Slanted Open House / Seoul Release Party",
+   "link": "https://www.slanted.de/slanted-open-house-seoul-release-party-recap/",
+   "date": "2026-11-20",
+   "image": "https://s.w.org/images/core/emoji/15.0.3/72x72/2764.png"
   },
   {
    "source": "Mindsparkle Mag",
@@ -240,19 +204,19 @@ window.DESIGN_FEED = {
    "source": "Creative Boom",
    "topic": "平面、插畫、品牌",
    "region": "west",
-   "title": "Why are football clubs launching Christmas campaigns (and do John Lewis and M&S have anything to worry about?)",
-   "link": "https://www.creativeboom.com/news/why-are-football-clubs-launching-christmas-campaigns-and-do-john-lewis-and-ms-have-anything-to-worry-about/",
+   "title": "Luke McConkey on spreading a pandemic of joy and working with Uniqlo",
+   "link": "https://www.creativeboom.com/insight/luke-mcconkey-on-spreading-a-pandemic-of-joy-and-working-with-uniqlo/",
    "date": "2026-11-23",
-   "image": "https://media.creativeboom.com/7f435004-44be-47af-9135-2feeb5d8b74f/conversions/4374c168a5446bc68a10f07d8bc9284a3810f811-medium.webp"
+   "image": "https://media.creativeboom.com/b2580a03-b7a8-48c4-b9d0-ee4616d959bd/conversions/d58177b2e9387d38ee4468bccf934b343de1dc64-medium.webp"
   },
   {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "How SomeOne Reimagined the Co-op brand identity",
-   "link": "https://abduzeedo.com/how-someone-reimagined-co-op-brand-identity/",
-   "date": "2026-11-22",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_52.jpg"
+   "title": "Base Design Unveils The Huntington Brand Identity",
+   "link": "https://abduzeedo.com/base-design-unveils-huntington-brand-identity/",
+   "date": "2026-11-23",
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_55.jpg"
   },
   {
    "source": "IDEA Magazine",
@@ -282,24 +246,6 @@ window.DESIGN_FEED = {
    "image": "https://spoon-tamago.com/wp-content/uploads/2026/04/kyoto_sokanzu_2026_en.jpeg"
   },
   {
-   "source": "PRINT · Poster Design",
-   "topic": "海報設計",
-   "region": "west",
-   "title": "The Daily Heller: From Parody to Pride",
-   "link": "https://www.printmag.com/daily-heller/the-daily-heller-from-parody-to-pride/",
-   "date": "2026-03-19",
-   "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/03/BSS_002.jpg?resize=749%2C1024&#038;quality=89&#038;ssl=1"
-  },
-  {
-   "source": "PRINT · Typography",
-   "topic": "字體與排印",
-   "region": "west",
-   "title": "The Lettering Artist Snooze is a Master of Type Experimentation and Process",
-   "link": "https://www.printmag.com/typography/snooze-lettering-and-calligraffiti-artist/",
-   "date": "2026-10-06",
-   "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/09/Screenshot-2026-09-29-at-12.28.53-PM.png?resize=1000%2C567&#038;quality=80&#038;ssl=1"
-  },
-  {
    "source": "Grafik",
    "topic": "平面設計",
    "region": "west",
@@ -312,17 +258,17 @@ window.DESIGN_FEED = {
    "source": "People of Print",
    "topic": "印刷與平面",
    "region": "west",
-   "title": "Format Is Not Neutral: Vera Freier’s Storage Relics",
-   "link": "https://peopleofprint.com/disciplines/product-design/format-is-not-neutral-vera-freiers-storage-relics/",
-   "date": "2026-11-18",
-   "image": "https://i0.wp.com/peopleofprint.com/wp-content/uploads/2026/11/VeraFreier5.jpg?resize=683%2C1024&#038;quality=89&#038;ssl=1"
+   "title": "Where Feeling Is a Criminal Violation: Nabil Mendes’s Inert City",
+   "link": "https://peopleofprint.com/disciplines/photography/where-feeling-is-a-criminal-violation-nabil-mendess-inert-city/",
+   "date": "2026-11-23",
+   "image": "https://i0.wp.com/peopleofprint.com/wp-content/uploads/2026/11/NabilMendes1.jpg?resize=1024%2C774&#038;quality=89&#038;ssl=1"
   },
   {
    "source": "Slanted",
    "topic": "字體與編排",
    "region": "west",
-   "title": "MECCHA KIREI. GRAPHIC DESIGN IN JAPAN",
-   "link": "https://www.slanted.de/meccha-kirei-graphic-design-in-japan/",
+   "title": "Typography as Spacial Intervention",
+   "link": "https://www.slanted.de/typography-as-spacial-intervention/",
    "date": "2026-11-19",
    "image": ""
   },
@@ -366,19 +312,19 @@ window.DESIGN_FEED = {
    "source": "Creative Boom",
    "topic": "平面、插畫、品牌",
    "region": "west",
-   "title": "This year's holiday ads have one thing in common, and it's good news for creatives",
-   "link": "https://www.creativeboom.com/insight/this-years-holiday-ads-have-one-thing-in-common-and-its-good-news-for-creatives/",
+   "title": "Why are football clubs launching Christmas campaigns (and do John Lewis and M&S have anything to worry about?)",
+   "link": "https://www.creativeboom.com/insight/why-are-football-clubs-launching-christmas-campaigns-and-do-john-lewis-and-ms-have-anything-to-worry-about/",
    "date": "2026-11-23",
-   "image": "https://media.creativeboom.com/86ec19f7-f0bf-4461-93c3-92922353426c/conversions/c809071de68df73bc4b89baa154bc88079c6cff1-medium.webp"
+   "image": "https://media.creativeboom.com/7f435004-44be-47af-9135-2feeb5d8b74f/conversions/4374c168a5446bc68a10f07d8bc9284a3810f811-medium.webp"
   },
   {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "Johnson Banks Unveils the RIBA brand identity",
-   "link": "https://abduzeedo.com/johnson-banks-unveils-riba-brand-identity/",
-   "date": "2026-11-22",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_3d.jpg"
+   "title": "Typography: ABC Areal by Dinamo Reimagines Arial for Are.na",
+   "link": "https://abduzeedo.com/typography-abc-areal-dinamo-reimagines-arial-arena/",
+   "date": "2026-11-23",
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_areal-refresh-arial-na-you-dinamo-typefaces.jpg"
   },
   {
    "source": "IDEA Magazine",
@@ -408,24 +354,6 @@ window.DESIGN_FEED = {
    "image": "https://spoon-tamago.com/wp-content/uploads/2026/04/kokuyo-design-award-winners-20265.jpg"
   },
   {
-   "source": "PRINT · Poster Design",
-   "topic": "海報設計",
-   "region": "west",
-   "title": "The Daily Heller: Can (Typographic) Design Emote Kindness?",
-   "link": "https://www.printmag.com/daily-heller/the-daily-heller-can-typographic-design-emote-kindness/",
-   "date": "2026-02-25",
-   "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/02/annual-FFK-2025.gif?resize=1000%2C707&#038;ssl=1"
-  },
-  {
-   "source": "PRINT · Typography",
-   "topic": "字體與排印",
-   "region": "west",
-   "title": "Lost in Translation? A Designer’s Guide to Japanese Type",
-   "link": "https://www.printmag.com/type-tuesday/lost-in-translation-a-designers-guide-to-japanese-type/",
-   "date": "2026-09-08",
-   "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/09/J-Type-101-2.jpg?resize=1000%2C750&#038;quality=89&#038;ssl=1"
-  },
-  {
    "source": "Grafik",
    "topic": "平面設計",
    "region": "west",
@@ -438,18 +366,18 @@ window.DESIGN_FEED = {
    "source": "People of Print",
    "topic": "印刷與平面",
    "region": "west",
-   "title": "What If Paper Could Bloom: Yuliya Tverdokhlib’s Lily Pad Zine",
-   "link": "https://peopleofprint.com/disciplines/illustration/what-if-paper-could-bloom-yuliya-tverdokhlibs-lily-pad-zine/",
-   "date": "2026-11-18",
-   "image": "https://i0.wp.com/peopleofprint.com/wp-content/uploads/2026/11/YuliyaTverdokhlib1-768x1024-1.jpg?resize=768%2C1024&#038;quality=89&#038;ssl=1"
+   "title": "Is It the Work, the Process, or the Labour We Choose to Value? Hagar Ezzeldin’s Hands Wrapped in Silk",
+   "link": "https://peopleofprint.com/editorial/features/is-it-the-work-the-process-or-the-labour-we-choose-to-value-hagar-ezzeldins-hands-wrapped-in-silk/",
+   "date": "2026-11-23",
+   "image": "https://i0.wp.com/peopleofprint.com/wp-content/uploads/2026/11/HagarEzzeldin1.jpg?resize=1024%2C819&#038;quality=89&#038;ssl=1"
   },
   {
    "source": "Slanted",
    "topic": "字體與編排",
    "region": "west",
-   "title": "Queer Ping Pong",
-   "link": "https://www.slanted.de/queer-ping-pong/",
-   "date": "2026-11-18",
+   "title": "MECCHA KIREI. GRAPHIC DESIGN IN JAPAN",
+   "link": "https://www.slanted.de/meccha-kirei-graphic-design-in-japan/",
+   "date": "2026-11-19",
    "image": ""
   },
   {
@@ -501,10 +429,10 @@ window.DESIGN_FEED = {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "Best of the Week: Die Grotesk, B416, and Sonny's Corner",
-   "link": "https://abduzeedo.com/best-week-die-grotesk-b416-and-sonnys-corner/",
-   "date": "2026-11-22",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_best-of-week-2026-W47.jpg"
+   "title": "Branding: Tula Global Brand Identity by BUCK",
+   "link": "https://abduzeedo.com/branding-tula-global-brand-identity-buck/",
+   "date": "2026-11-23",
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_54.jpg"
   },
   {
    "source": "IDEA Magazine",
@@ -534,24 +462,6 @@ window.DESIGN_FEED = {
    "image": "https://spoon-tamago.com/wp-content/uploads/2026/03/draw_editing_02.webp"
   },
   {
-   "source": "PRINT · Poster Design",
-   "topic": "海報設計",
-   "region": "west",
-   "title": "The Daily Heller: Bringing the Old(est) Slavic Alphabet to Virtual Life",
-   "link": "https://www.printmag.com/daily-heller/the-daily-heller-laze-tripkov/",
-   "date": "2026-02-02",
-   "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/02/8a46b3db-cb93-4891-a3e7-df20f0af8ec6.jpg?resize=1000%2C468&#038;quality=89&#038;ssl=1"
-  },
-  {
-   "source": "PRINT · Typography",
-   "topic": "字體與排印",
-   "region": "west",
-   "title": "Gotham Variable and the Art of Evolution",
-   "link": "https://www.printmag.com/type-tuesday/gotham-variable-and-the-art-of-evolution/",
-   "date": "2026-08-18",
-   "image": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/08/FINAL_2677.jpg?resize=1000%2C563&#038;quality=89&#038;ssl=1"
-  },
-  {
    "source": "Grafik",
    "topic": "平面設計",
    "region": "west",
@@ -564,17 +474,17 @@ window.DESIGN_FEED = {
    "source": "People of Print",
    "topic": "印刷與平面",
    "region": "west",
-   "title": "Paper, Poppies and the Artists Who Brought Them to Life",
-   "link": "https://peopleofprint.com/editorial/features/paper-poppies-and-the-artists-who-brought-them-to-life/",
-   "date": "2026-11-11",
-   "image": "https://i0.wp.com/peopleofprint.com/wp-content/uploads/2026/11/5-768x1024-1.jpg?resize=768%2C1024&#038;quality=89&#038;ssl=1"
+   "title": "Whose Version of Punk Gets Seen? Divi Sanpal’s Punks of India",
+   "link": "https://peopleofprint.com/disciplines/fashion-textiles/whose-version-of-punk-gets-seen-divi-sanpals-punks-of-india/",
+   "date": "2026-11-23",
+   "image": "https://i0.wp.com/peopleofprint.com/wp-content/uploads/2026/11/DiviSanpal1.jpeg?resize=671%2C1024&#038;quality=89&#038;ssl=1"
   },
   {
    "source": "Slanted",
    "topic": "字體與編排",
    "region": "west",
-   "title": "Internship at Slanted Publishers—application open until December 6th!",
-   "link": "https://www.slanted.de/praktikum-grafikdesign-karlsruhe-2027/",
+   "title": "Queer Ping Pong",
+   "link": "https://www.slanted.de/queer-ping-pong/",
    "date": "2026-11-18",
    "image": ""
   },
@@ -627,10 +537,10 @@ window.DESIGN_FEED = {
    "source": "Abduzeedo",
    "topic": "平面與視覺靈感",
    "region": "west",
-   "title": "Inside Pentagram’s Brand Identity for Poetry Foundation",
-   "link": "https://abduzeedo.com/inside-pentagrams-brand-identity-poetry-foundation/",
-   "date": "2026-11-22",
-   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_poetry.jpg"
+   "title": "Philharmonia: Orchestral Brand Identity by Pentagram",
+   "link": "https://abduzeedo.com/philharmonia-orchestral-brand-identity-pentagram/",
+   "date": "2026-11-23",
+   "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_philharmonia-pentagram.jpg"
   },
   {
    "source": "IDEA Magazine",
